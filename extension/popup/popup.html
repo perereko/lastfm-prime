@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Last.fm Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400..800&display=swap">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="head">
+    <img class="logo" src="../icons/icon48.png" alt="" width="36" height="36">
+    <div class="head-text">
+      <h1>Last.fm Hub</h1>
+      <p id="status">Tema ativo no Last.fm</p>
+    </div>
+    <label class="switch big" title="Ligar ou desligar o tema">
+      <input type="checkbox" data-key="enabled" aria-label="Tema ativado">
+      <span></span>
+    </label>
+  </header>
+
+  <main id="body">
+    <a class="account" id="account" href="https://www.last.fm/" target="_blank" rel="noopener">
+      <span class="account-avatar" id="account-avatar" aria-hidden="true"></span>
+      <span class="account-text">
+        <b id="account-name">Entre no Last.fm</b>
+        <small id="account-sub">Perfil, biblioteca e “tocando agora” aparecem depois do login</small>
+      </span>
+    </a>
+
+    <section>
+      <h2>Cor de destaque</h2>
+      <div class="swatches" role="radiogroup" aria-label="Cor de destaque">
+        <button type="button" class="swatch auto" data-accent="auto" role="radio" title="Automática: tirada da capa ou foto da página">
+          <span class="swatch-ring"></span><span class="swatch-label">Da capa</span>
+        </button>
+        <button type="button" class="swatch" data-accent="#b8a4ff" role="radio" title="Lilás" style="--s:#b8a4ff"><span class="swatch-ring"></span><span class="swatch-label">Lilás</span></button>
+        <button type="button" class="swatch" data-accent="#ff6b6b" role="radio" title="Vermelho Last.fm" style="--s:#ff6b6b"><span class="swatch-ring"></span><span class="swatch-label">Vermelho</span></button>
+        <button type="button" class="swatch" data-accent="#ffb547" role="radio" title="Âmbar" style="--s:#ffb547"><span class="swatch-ring"></span><span class="swatch-label">Âmbar</span></button>
+        <button type="button" class="swatch" data-accent="#5ee6b5" role="radio" title="Menta" style="--s:#5ee6b5"><span class="swatch-ring"></span><span class="swatch-label">Menta</span></button>
+        <button type="button" class="swatch" data-accent="#7cc4ff" role="radio" title="Azul gelo" style="--s:#7cc4ff"><span class="swatch-ring"></span><span class="swatch-label">Azul</span></button>
+        <button type="button" class="swatch" data-accent="#ff86c8" role="radio" title="Rosa" style="--s:#ff86c8"><span class="swatch-ring"></span><span class="swatch-label">Rosa</span></button>
+      </div>
+      <p class="hint" id="accent-hint">Cada página ganha a cor da própria capa ou foto. Em imagens sem cor, usa o lilás.</p>
+    </section>
+
+    <section>
+      <h2>Layout</h2>
+      <label class="row"><span><b>Barra lateral</b><small>Navegação fixa à esquerda com seu perfil e o que está tocando <kbd>B</kbd></small></span><span class="switch"><input type="checkbox" data-key="sidebar"><span></span></span></label>
+      <label class="row"><span><b>Topo compacto ao rolar</b><small>Capa, título, play e “Ouvir no” sempre à mão</small></span><span class="switch"><input type="checkbox" data-key="miniHeader"><span></span></span></label>
+      <label class="row"><span><b>Layout amplo</b><small>Abre a coluna até 2560px em monitores ultrawide <kbd>W</kbd></small></span><span class="switch"><input type="checkbox" data-key="wide"><span></span></span></label>
+      <label class="row"><span><b>Animações</b><small>Entrada das páginas, capas que surgem ao rolar e efeitos de hover</small></span><span class="switch"><input type="checkbox" data-key="animations"><span></span></span></label>
+      <label class="row"><span><b>Brilho ambiente</b><small>A cor da arte da página tinge o topo do fundo preto</small></span><span class="switch"><input type="checkbox" data-key="ambient"><span></span></span></label>
+      <label class="row"><span><b>Modo leve</b><small>Sem desfoques nem mosaicos animados: mais rápido em computadores modestos</small></span><span class="switch"><input type="checkbox" data-key="lite"><span></span></span></label>
+      <label class="row"><span><b>Esconder anúncios e banners</b><small>Remove propagandas e chamadas para assinar o Pro</small></span><span class="switch"><input type="checkbox" data-key="hideAds"><span></span></span></label>
+    </section>
+
+    <section>
+      <h2>Sua música</h2>
+      <label class="row"><span><b>Tocando agora</b><small>O scrobble atual na barra lateral, atualizado a cada 30 s</small></span><span class="switch"><input type="checkbox" data-key="nowPlaying"><span></span></span></label>
+      <label class="row"><span><b>Painel na página inicial</b><small>Saudação, sua semana, total e artistas mais ouvidos</small></span><span class="switch"><input type="checkbox" data-key="homeDash"><span></span></span></label>
+      <label class="row"><span><b>Estatísticas do perfil</b><small>Média por dia e por mês, anos de scrobbles e dias de música</small></span><span class="switch"><input type="checkbox" data-key="stats"><span></span></span></label>
+      <label class="row"><span><b>Catálogo</b><small>Seus gêneros em ordem, a lista de ouvir depois e descobertas por gênero</small></span><span class="switch"><input type="checkbox" data-key="catalog"><span></span></span></label>
+      <label class="row"><span><b>Recomendações Premium</b><small>Busca por gêneros de álbuns de bandas que você nunca ouviu, das mais compatíveis com o seu gosto às menos</small></span><span class="switch"><input type="checkbox" data-key="premium"><span></span></span></label>
+      <label class="row"><span><b>Descobrir turbinado</b><small>Página Descobrir com mosaico de capas, prateleiras, selos de novo e já ouvido e o “Surpreenda-me”</small></span><span class="switch"><input type="checkbox" data-key="discover"><span></span></span></label>
+      <label class="row"><span><b>Dê um match</b><small>Botão nas páginas de artista, álbum e faixa com recomendações muito parecidas, afinidade estimada e opção de descartar</small></span><span class="switch"><input type="checkbox" data-key="match"><span></span></span></label>
+      <label class="row"><span><b>Amigos (rede social)</b><small>Aba lateral com quem está ouvindo agora, a atividade de quem você segue e recados entre vocês</small></span><span class="switch"><input type="checkbox" data-key="socialHub"><span></span></span></label>
+      <label class="row"><span><b>Doppelgänger</b><small>Aba que sugere bandas parecidas, mas fora do óbvio que o Last.fm costuma indicar — para descobrir artistas novos</small></span><span class="switch"><input type="checkbox" data-key="doppel"><span></span></span></label>
+      <label class="row"><span><b>Shows</b><small>A agenda de shows do Last.fm nas suas cidades, com os artistas que você ouve na frente, presença (Vou/Talvez/Fui) e mapa</small></span><span class="switch"><input type="checkbox" data-key="shows"><span></span></span></label>
+      <label class="row"><span><b>Seguidores e seguindo</b><small>Cartões com scrobbles, o que cada um ouve agora e a afinidade com você</small></span><span class="switch"><input type="checkbox" data-key="social"><span></span></span></label>
+    </section>
+
+    <section>
+      <h2>Páginas de artista, álbum e faixa</h2>
+      <label class="row"><span><b>Botão “Ouvir no”</b><small>Abre no seu serviço e substitui o “Play” do site no topo; o menu traz os outros serviços, letras e notas</small></span><span class="switch"><input type="checkbox" data-key="listen"><span></span></span></label>
+      <div class="row row-services" id="service-row">
+        <span><b>Serviço preferido</b><small>Usado no botão principal e no <kbd>Alt</kbd><kbd>Enter</kbd> da busca</small></span>
+        <div class="services" id="service" role="radiogroup" aria-label="Serviço preferido">
+          <button type="button" role="radio" data-service="spotify" style="--c:#1ed760">Spotify</button>
+          <button type="button" role="radio" data-service="ytmusic" style="--c:#ff4e45">YouTube Music</button>
+          <button type="button" role="radio" data-service="apple" style="--c:#fa586a">Apple Music</button>
+          <button type="button" role="radio" data-service="deezer" style="--c:#a238ff">Deezer</button>
+          <button type="button" role="radio" data-service="tidal" style="--c:#7ff3ff">Tidal</button>
+          <button type="button" role="radio" data-service="youtube" style="--c:#ff3333">YouTube</button>
+          <button type="button" role="radio" data-service="soundcloud" style="--c:#ff7a1a">SoundCloud</button>
+        </div>
+      </div>
+      <label class="row"><span><b>Abas de seções</b><small>Faixas, álbuns, fotos, shows e biografia logo abaixo do topo</small></span><span class="switch"><input type="checkbox" data-key="artistTabs"><span></span></span></label>
+      <label class="row"><span><b>Capa no topo</b><small>Capa grande ao lado do título, com zoom em alta resolução</small></span><span class="switch"><input type="checkbox" data-key="heroCover"><span></span></span></label>
+    </section>
+
+    <section>
+      <h2>Ferramentas</h2>
+      <label class="row"><span><b>Balões de informação</b><small>Passe o mouse num artista, álbum ou faixa para ver números, tags e resumo</small></span><span class="switch"><input type="checkbox" data-key="hoverCards"><span></span></span></label>
+      <label class="row"><span><b>Busca rápida</b><small>Abre no centro da tela, com o fundo desfocado <kbd>Ctrl</kbd><kbd>K</kbd></small></span><span class="switch"><input type="checkbox" data-key="palette"><span></span></span></label>
+      <label class="row"><span><b>Filtro e grade nas listas</b><small>Filtra a página na hora e mostra a biblioteca como mosaico</small></span><span class="switch"><input type="checkbox" data-key="listTools"><span></span></span></label>
+      <label class="row"><span><b>Atalhos de teclado</b><small>Aperte <kbd>?</kbd> em qualquer página do Last.fm para ver a lista</small></span><span class="switch"><input type="checkbox" data-key="shortcuts"><span></span></span></label>
+      <label class="row"><span><b>Voltar ao topo</b><small>Botão com o progresso da rolagem</small></span><span class="switch"><input type="checkbox" data-key="backToTop"><span></span></span></label>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <button type="button" id="open" class="link">Abrir o Last.fm</button>
+    <button type="button" id="reset" class="link muted">Restaurar padrões</button>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+#define VER_COMMA @VERC@
+#define VER_STR "@VER@"
+1 ICON "icon.ico"
+1 24 "launcher.manifest"
+1 VERSIONINFO
+FILEVERSION VER_COMMA
+PRODUCTVERSION VER_COMMA
+FILEFLAGSMASK 0x3fL
+FILEFLAGS 0x0L
+FILEOS 0x40004L
+FILETYPE 0x1L
+FILESUBTYPE 0x0L
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "041604b0"
+    BEGIN
+      VALUE "CompanyName", "Perereko"
+      VALUE "FileDescription", "Last.fm PRIME (Last.fm + Spotify)"
+      VALUE "FileVersion", VER_STR
+      VALUE "InternalName", "lastfm-prime"
+      VALUE "LegalCopyright", "by Perereko"
+      VALUE "OriginalFilename", "Last.fm PRIME.exe"
+      VALUE "ProductName", "Last.fm PRIME"
+      VALUE "ProductVersion", VER_STR
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x416, 1200
+  END
+END

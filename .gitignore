@@ -1,0 +1,26 @@
+# dependências e caches
+node_modules/
+.cache/
+
+# gerados pelo build
+dist/
+build/stage-*/
+launcher/payload.zip
+launcher/*.syso
+launcher/launcher.res
+launcher/launcher.rc
+launcher/icon.ico
+
+# cópia da extensão que o build/sync-ext.js coloca dentro do app
+app/extension/
+
+# dados locais do app em desenvolvimento e saídas dos testes
+app/dados-dev/
+test/out/
+*.log
+
+# sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+__pycache__/

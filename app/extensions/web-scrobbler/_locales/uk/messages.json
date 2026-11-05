@@ -1,0 +1,1106 @@
+{
+   "aboutChangelog": {
+      "description": "'About' section text",
+      "message": "The changelog of current version is available \u003Ca id='latest-release' target='_blank' href='$1'>here\u003C/a>. For the full changelog please visit \u003Ca target='_blank' href='$2'>this page\u003C/a>."
+   },
+   "aboutExtensionDesc": {
+      "description": "'About' section text",
+      "message": "Web Scrobbler is a browser extension created for people who listen to music online through their browser, and would like to keep an updated playback history using scrobbling services, such as Last.fm, Libre.fm, ListenBrainz, and Pleroma."
+   },
+   "accountsAddWebhook": {
+      "description": "Button label",
+      "message": "Add Webhook"
+   },
+   "accountsApplicationName": {
+      "description": "Input label",
+      "message": "Application name"
+   },
+   "accountsApplicationNamePlaceholder": {
+      "description": "Input label",
+      "message": "Custom webhook label"
+   },
+   "accountsNotSignedIn": {
+      "description": "'Signed in' label",
+      "message": "Ви не увійшли."
+   },
+   "accountsProfile": {
+      "description": "'Signed in' label",
+      "message": "Профіль"
+   },
+   "accountsScrobblerProps": {
+      "description": "Button label",
+      "message": "Властивості"
+   },
+   "accountsScrobblerPropsTitle": {
+      "description": "Button label",
+      "message": "Властивості $1"
+   },
+   "accountsSignIn": {
+      "description": "Button label",
+      "message": "Увійти"
+   },
+   "accountsSignOut": {
+      "description": "Button label",
+      "message": "Вийти"
+   },
+   "accountsSignedInAs": {
+      "description": "'Signed in' label",
+      "message": "Ви увійшли як $1."
+   },
+   "accountsUseLocalInstance": {
+      "description": "Button label",
+      "message": "Use local instance"
+   },
+   "accountsUserApiUrl": {
+      "description": "Input label",
+      "message": "API URL"
+   },
+   "accountsUserApiUrlPlaceholder": {
+      "description": "Input label",
+      "message": "API URL користувача"
+   },
+   "accountsUserToken": {
+      "description": "Input label",
+      "message": "Токен"
+   },
+   "accountsUserTokenPlaceholder": {
+      "description": "Input label",
+      "message": "Користувальницький токен"
+   },
+   "albumTooltip": {
+      "description": "Tooltip text",
+      "message": "З альбому \"$1\""
+   },
+   "buttonCancel": {
+      "description": "Cancel button label",
+      "message": "Скасувати"
+   },
+   "buttonClear": {
+      "description": "Clear button label",
+      "message": "Очистити"
+   },
+   "buttonOk": {
+      "description": "OK button label",
+      "message": "ОК"
+   },
+   "buttonRemove": {
+      "description": "Remove button label, for removing a single scrobble from the cache",
+      "message": "Remove"
+   },
+   "buttonReset": {
+      "description": "Reset button label",
+      "message": "Скинути"
+   },
+   "buttonScrobble": {
+      "description": "Scrobble button label",
+      "message": "Scrobble"
+   },
+   "contactGitHubDesc": {
+      "description": "Description for GitHub section",
+      "message": "Взяти участь у розвитку проекту"
+   },
+   "contactPrivacyPolicyDesc": {
+      "description": "Description for privacy section",
+      "message": "Переглянути політику конфіденційності"
+   },
+   "contactTitle": {
+      "description": "'Contact' section",
+      "message": "Контакти"
+   },
+   "contactTwitterDesc": {
+      "description": "Description for Twitter section",
+      "message": "Слідкувати за оновленнями або поспілкуватись"
+   },
+   "contributorsContribute": {
+      "description": "'About' section text",
+      "message": "Хочете сприяти розвитку проекту? Продивіться всі варіанти на \u003Ca href='$1' target=\"_blank\" rel=\"noopener noreferrer\">нашій веб-сторінці\u003C/a>"
+   },
+   "contributorsText": {
+      "description": "'About' section text",
+      "message": "Ви можете переглянути список учасників проекту на \u003Ca href='$1'>сторінці проекту на GitHub\u003C/a>"
+   },
+   "contributorsTitle": {
+      "description": "'Contributors' header",
+      "message": "Учасники проекту"
+   },
+   "customPatterns": {
+      "description": "'URL patterns' section",
+      "message": "Шаблони URL-адрес"
+   },
+   "customPatternsAdd": {
+      "description": "Add button",
+      "message": "Додати паттерн"
+   },
+   "customPatternsHint": {
+      "description": "Popup hint",
+      "message": "Додайте URL-адресу необхідних паттернів для коннектора."
+   },
+   "disabledSiteButton": {
+      "description": "Button label",
+      "message": "Відкрити налаштування"
+   },
+   "disabledSiteDesc": {
+      "description": "The description of 'disabled' popup",
+      "message": "Розширення не буде скробблити музику з цього сайту, поки ви не увімкнете цей сайт у налаштуваннях розширення."
+   },
+   "disabledSiteHeader": {
+      "description": "The header of 'disabled' popup",
+      "message": "Ви відключили цей сайт"
+   },
+   "disallowedButton": {
+      "description": "Button label",
+      "message": "Scrobble anyway"
+   },
+   "disallowedDesc1": {
+      "description": "The description of 'disallowed' popup. $1 is the artist detected. $2 is the track detected",
+      "message": "Web Scrobbler has detected the song \"$2\" by \"$1\", but will not scrobble it."
+   },
+   "disallowedDesc3": {
+      "description": "The description of 'disallowed' popup on all sites including youtube",
+      "message": "Web Scrobbler should still scrobble music from elsewhere on this website."
+   },
+   "disallowedDescElementMissing": {
+      "description": "The description of 'disallowed' popup.",
+      "message": "The reason is that some element Web Scrobbler relies on is not in the page. This probably means that either you are not playing music, or there is a bug in the connector."
+   },
+   "disallowedDescFilteredTag": {
+      "description": "The description of 'disallowed' popup.",
+      "message": "Either the artist, album, or track has been filtered by the connector as something that should not be scrobbled. This is not due to any setting you have set in your settings."
+   },
+   "disallowedDescForbiddenChannel": {
+      "description": "The description of 'disallowed' popup.",
+      "message": "You have disabled scrobbling this channel. You can re-enable it in connector settings, or by right clicking the extension icon and clicking \"Enable scrobbling from \u003CID>\"."
+   },
+   "disallowedDescForbiddenTag": {
+      "description": "The description of 'disallowed' popup.",
+      "message": "You have disabled scrobbling this artist, album, and/or track. You can re-enable tags in settings, or by hitting \"Scrobble anyway\" and re-enabling the tags in regex editing."
+   },
+   "disallowedDescForbiddenYouTubeCategory": {
+      "description": "The description of 'disallowed' popup.",
+      "message": "You have disabled scrobbling youtube video categories other than music and/or entertainment, and this video is marked by the uploader as a different category. You can choose to scrobble any video category by disabling both \"Scrobble videos from \"Music\" category\" and \"Scrobble videos from \"Entertainment\" category\" in Web Scrobbler settings."
+   },
+   "disallowedDescIsAd": {
+      "description": "The description of 'disallowed' popup.",
+      "message": "The reason is that Web Scrobbler has detected this as being an ad."
+   },
+   "disallowedDescIsLoading": {
+      "description": "The description of 'disallowed' popup.",
+      "message": "Something Web Scrobbler relies on for finding the track details is loading. Please wait a few seconds. If this message persists, please report it, as something is wrong."
+   },
+   "disallowedDescIsPlayingElsewhere": {
+      "description": "The description of 'disallowed' popup.",
+      "message": "The reason is that Web Scrobbler thinks this track is playing elsewhere and should not be scrobbled."
+   },
+   "disallowedDescIsPrivate": {
+      "description": "The description of 'disallowed' popup when a song that is marked as private is being played.",
+      "message": "The song is not being scrobbled, as it is marked private by the owner. "
+   },
+   "disallowedDescNotOnYouTubeMusic": {
+      "description": "The description of 'disallowed' popup.",
+      "message": "YouTube Music does not recognize this video as music, and you have enabled the option \"Scrobble only videos that are recognized by YouTube Music as music\" in settings."
+   },
+   "disallowedDescOther": {
+      "description": "The description of 'disallowed' popup.",
+      "message": "For some unknown reason, Web Scrobbler has determined this should not scrobble. This is not related to any setting you have set. If you believe this is an error, please report it."
+   },
+   "disallowedHeader": {
+      "description": "The header of 'disallowed' popup",
+      "message": "This song is not being scrobbled"
+   },
+   "donationButtonLabel": {
+      "description": "The donation button label",
+      "message": "Підтримайте нас на OpenCollective"
+   },
+   "extDescription": {
+      "description": "Description of the extension",
+      "message": "Скроббліть музику з усього Інтернету!"
+   },
+   "faqAnswer1a": {
+      "description": "Answer #1",
+      "message": "Необхідно натиснути на повідомлення, яке з'являється після встановлення розширення. Після цього потрібно дати розширення доступу до своїх облікових записів."
+   },
+   "faqAnswer1b": {
+      "description": "Answer #1",
+      "message": "Примітка: у деяких випадках сповіщення може не відображатися, наприклад, на MacOS, якщо Chrome розгорнуто на весь екран; розширення створить нову вкладку самостійно, де ви зможете дати йому доступ до своїх облікових записів."
+   },
+   "faqAnswer2a": {
+      "description": "Answer #2",
+      "message": "Ви можете зробити це, клацнувши правою кнопкою миші зелений значок розширення на панелі розширення. За допомогою контекстного меню ви можете вимкнути коннектор для поточного веб-сайту."
+   },
+   "faqAnswer2b": {
+      "description": "Answer #2",
+      "message": "Використовуйте галочки нижче, щоб вимкнути певні сайти, або перемикач, щоб вимкнути скробблінґ глобально."
+   },
+   "faqAnswer3a": {
+      "description": "Answer #3",
+      "message": "Якщо композицію неможливо розпізнати, на панелі розширення з’являється сіра піктограма зі знаком питання. Ви можете натиснути на цей значок і ввести правильні дані у відкритому спливаючому вікні."
+   },
+   "faqAnswer3b": {
+      "description": "Answer #3",
+      "message": "Крім того, є опція під назвою «Примусове розпізнавання треку», яка змушує розширення примусово скробблити трек, навіть якщо розширення не розпізнало його."
+   },
+   "faqAnswer4a": {
+      "description": "Answer #4",
+      "message": "Схоже, композиції розташовані на нестандартному домені і розширення не може визначити, що це Bandcamp."
+   },
+   "faqAnswer4b": {
+      "description": "Answer #4",
+      "message": "Як варіант, налаштуйте розширення для роботи з нестандартними доменами таким чином:"
+   },
+   "faqAnswer4b1": {
+      "description": "Answer #4",
+      "message": "Відкрийте сторінку з налаштуваннями та розгорніть розділ \"Налаштування\"."
+   },
+   "faqAnswer4b2": {
+      "description": "Answer #4",
+      "message": "Знайдіть Bandcamp у списку підтримуваних сайтів."
+   },
+   "faqAnswer4b3": {
+      "description": "Answer #4",
+      "message": "Клацніть на іконку з шестернею біля назви коннектора."
+   },
+   "faqAnswer4b4": {
+      "description": "Answer #4",
+      "message": "Додайте паттерн URL, який буде відповідати нестандартному домену Bandcamp, та застосуйте зміни."
+   },
+   "faqAnswer4c": {
+      "description": "Answer #4",
+      "message": "Ви можете дізнатися більше про паттерни URL від користувача \u003Ca target='_blank' href='$1'>тут\u003C/a>."
+   },
+   "faqAnswer5": {
+      "description": "Answer #5",
+      "message": "Створіть \u003Ca href='$1' target='_blank'>новий багрепорт\u003C/a> на GitHub, і ми вам скажемо, чи зможемо ми додати підтримку чи ні. Також ви можете додати підтримку якогось сайту самостійно, форкнувши \u003Ca href='$1'>проект з GitHub\u003C/a> і відправивши нам pull-реквест."
+   },
+   "faqAnswer6": {
+      "description": "Answer #6",
+      "message": "Можливо, якщо це має сенс. Але якщо ви захочете, щоб я додав деякі не дуже корисні, але дійсно круті функції, ви, ймовірно, розчаруєтеся."
+   },
+   "faqAnswer7": {
+      "description": "Answer #7",
+      "message": "Початковим автором цього розширення це David Šabata. Тепер це розширення розроблено та підтримується командою Web Scrobbler."
+   },
+   "faqQuestion1": {
+      "description": "Question #1",
+      "message": "Як мені почати використовувати розширення?"
+   },
+   "faqQuestion2": {
+      "description": "Question #2",
+      "message": "Як тимчасово вимкнути скробблінґ?"
+   },
+   "faqQuestion3": {
+      "description": "Question #3",
+      "message": "Трек не розпізнано! Ви можете це виправити?"
+   },
+   "faqQuestion4": {
+      "description": "Question #4",
+      "message": "Деякі композиції на Bandcamp не скробляться. Це можна якось виправити?"
+   },
+   "faqQuestion5": {
+      "description": "Question #5",
+      "message": "Чи додасте ви підтримку скроблінгу з ____?"
+   },
+   "faqQuestion6": {
+      "description": "Question #6",
+      "message": "Чи додасте ви ____ функціонал?"
+   },
+   "faqQuestion7": {
+      "description": "Question #7",
+      "message": "Хто автор розширення?"
+   },
+   "faqTitle": {
+      "description": "'FAQ' section",
+      "message": "ЧаПи"
+   },
+   "getStartedHeader": {
+      "description": "The header of 'Get started' popup",
+      "message": "Для початку увімкни якийсь трек"
+   },
+   "getStartedSiteChanged": {
+      "description": "Description of why track is not recognized",
+      "message": "У більшості випадків це означає, що на сайті відбулися зміни. Ці зміни можуть бути непомітними для користувача, але критичними для розширення."
+   },
+   "getStartedSubheader": {
+      "description": "The subheader of 'Get started' popup",
+      "message": "Вже щось грає?"
+   },
+   "getStartedSubmitIssue": {
+      "description": "Description of how to submit new issue",
+      "message": "Код коннектору потребує оновлення для підтримки цього сайту. Ви можете відкрити \u003Ca href='$1' target='_blank'>список багрепортів\u003C/a> і подивитися, чи не повідомив хтось про цю проблему. Якщо ні, то ви можете створити новий багрепорт із докладним описом проблеми."
+   },
+   "hotkeyLoveSong": {
+      "description": "Hotkey label",
+      "message": "Додати трек до списку улюблених"
+   },
+   "hotkeyToggleConnector": {
+      "description": "Hotkey label",
+      "message": "Включити/виключити скробблінґ для поточного сайту"
+   },
+   "hotkeyUnloveSong": {
+      "description": "Hotkey label",
+      "message": "Видалити трек зі списку улюблених"
+   },
+   "ignoredDesc": {
+      "description": "The description of 'ignored' popup. $1 is artist name, and $2 is track name",
+      "message": "Web Scrobbler tried to scrobble \"$2\" by \"$1\", but the tags were ignored by Last.FM."
+   },
+   "ignoredDescReadMore": {
+      "description": "The description of 'ignored' popup, links to support.last.fm thread",
+      "message": "Read more and ask for the song to be allowlisted here"
+   },
+   "ignoredHeader": {
+      "description": "The header of 'ignored' popup",
+      "message": "This scrobble was ignored"
+   },
+   "infoAlbumArtistLabel": {
+      "description": "Label of album artist input row",
+      "message": "Артист альбому"
+   },
+   "infoAlbumArtistPlaceholder": {
+      "description": "Placeholder of album artist input",
+      "message": "Виконавець альбому (необов'язково)"
+   },
+   "infoAlbumLabel": {
+      "description": "Label of album input row",
+      "message": "Альбом"
+   },
+   "infoAlbumPlaceholder": {
+      "description": "Placeholder of album input",
+      "message": "Альбом (необов'язково)"
+   },
+   "infoArtistLabel": {
+      "description": "Label of artist input row",
+      "message": "Артист"
+   },
+   "infoArtistPlaceholder": {
+      "description": "Placeholder of artist input",
+      "message": "Виконавець"
+   },
+   "infoBlockAlbum": {
+      "description": "Title of button to block scrobbling album",
+      "message": "Never scrobble this album"
+   },
+   "infoBlockArtist": {
+      "description": "Title of button to block scrobbling artist",
+      "message": "Never scrobble this artist"
+   },
+   "infoBlockTrack": {
+      "description": "Title of button to block scrobbling track",
+      "message": "Never scrobble this track"
+   },
+   "infoBoxStateDisallowed": {
+      "description": "Infobox text when an option is disallowing scrobbling",
+      "message": "Scrobbling is not allowed. Click web scrobbler extension icon for more information."
+   },
+   "infoBoxStateError": {
+      "description": "Infobox text when an error occured",
+      "message": "A service error occurred. Click web scrobbler extension icon for more information."
+   },
+   "infoBoxStateUnknown": {
+      "description": "Infobox track is not recognized",
+      "message": "The track is not recognized. Click web scrobbler extension icon to correct info."
+   },
+   "infoDeleteLabel": {
+      "description": "Label of regex edit delete button",
+      "message": "Delete"
+   },
+   "infoEditTitle": {
+      "description": "Title of edit button",
+      "message": "Змінити інформацію про трек"
+   },
+   "infoEditTitleShort": {
+      "description": "Title of edit button, should be short for mobile button label",
+      "message": "Змінити"
+   },
+   "infoEditUnableTitle": {
+      "description": "Title of edit button",
+      "message": "Ви не можете змінювати інформацію про цей трек"
+   },
+   "infoEditUnableTitleShort": {
+      "description": "Title of edit button, should be short for mobile button label",
+      "message": "Неможливо змінити"
+   },
+   "infoEditedWarning": {
+      "description": "Warning message to user if bulk editing on a previously edited track",
+      "message": "This track has been edited. Regex edits are not applied to edited tracks, and the preview you see here may be inaccurate."
+   },
+   "infoLove": {
+      "description": "Label of love/unlove button",
+      "message": "Лайкнути трек"
+   },
+   "infoMatchCase": {
+      "description": "Title of checkbox to toggle bulk edit flag",
+      "message": "Match case"
+   },
+   "infoMatchWholeTag": {
+      "description": "Title of checkbox to toggle bulk edit flag",
+      "message": "Match entire tag"
+   },
+   "infoOpenAlbumArt": {
+      "description": "Title of album image",
+      "message": "Відкрити обкладинку альбому в новій вкладці"
+   },
+   "infoPreviewLabel": {
+      "description": "Label of regex edit preview output",
+      "message": "Прев'ю"
+   },
+   "infoRegexTitle": {
+      "description": "Title of regex/bulk edit button",
+      "message": "Regex/Bulk edit mode"
+   },
+   "infoRegexTitleShort": {
+      "description": "Title of regex/bulk edit button, should be short for mobile button label",
+      "message": "Regex/Bulk edit"
+   },
+   "infoReplaceLabel": {
+      "description": "Label of regex edit replace input",
+      "message": "Замінити"
+   },
+   "infoRevertTitle": {
+      "description": "Title of revert button",
+      "message": "Відмінити зміни"
+   },
+   "infoRevertTitleShort": {
+      "description": "Title of revert button, should be short for mobile button label",
+      "message": "Повернути назад"
+   },
+   "infoRevertUnableTitle": {
+      "description": "Title of revert button",
+      "message": "Ви не можете скинути інформацію про цей трек"
+   },
+   "infoRevertUnableTitleShort": {
+      "description": "Title of revert button, should be short for mobile button label",
+      "message": "Неможливо повернути назад"
+   },
+   "infoSearchLabel": {
+      "description": "Label of regex edit search input",
+      "message": "Пошук"
+   },
+   "infoSkipTitle": {
+      "description": "Title of skip button",
+      "message": "Не скробблити поточний трек"
+   },
+   "infoSkipTitleShort": {
+      "description": "Title of skip button, should be short for mobile button label",
+      "message": "Пропуск"
+   },
+   "infoSkipUnableTitle": {
+      "description": "Title of skip button",
+      "message": "Ви не можете пропускати цей трек"
+   },
+   "infoSkipUnableTitleShort": {
+      "description": "Title of skip button, should be short for mobile button label",
+      "message": "Неможливо пропустити"
+   },
+   "infoSkippedTitle": {
+      "description": "Title of unskip button",
+      "message": "Ви пропустили цей трек"
+   },
+   "infoSkippedTitleShort": {
+      "description": "Title of unskip button, should be short for mobile button label",
+      "message": "Пропущено"
+   },
+   "infoSubmitTitle": {
+      "description": "Title of submit button",
+      "message": "Зберегти зміни"
+   },
+   "infoSubmitTitleShort": {
+      "description": "Title of submit button, should be short for mobile button label",
+      "message": "Підтвердити"
+   },
+   "infoSubmitUnableTitle": {
+      "description": "Title of submit button",
+      "message": "Ви не можете зберегти пусту інформацію про трек"
+   },
+   "infoSubmitUnableTitleShort": {
+      "description": "Title of submit button, should be short for mobile button label",
+      "message": "Неможливо підтвердити"
+   },
+   "infoSwapTitle": {
+      "description": "Title of swap button",
+      "message": "Поміняти виконавця та назву композиції місцями"
+   },
+   "infoSwapTitleShort": {
+      "description": "Title of swap button, should be short for mobile button label",
+      "message": "Поміняти місцями назву треку та артиста"
+   },
+   "infoSwapUnableTitle": {
+      "description": "Title of swap button",
+      "message": "Ви не можете поміняти місцями пусту інформацію про трек"
+   },
+   "infoSwapUnableTitleShort": {
+      "description": "Title of swap button, should be short for mobile button label",
+      "message": "Неможливо поміняти місцями"
+   },
+   "infoTrackLabel": {
+      "description": "Label of track input row",
+      "message": "Трек"
+   },
+   "infoTrackPlaceholder": {
+      "description": "Placeholder of track input",
+      "message": "Трек"
+   },
+   "infoUnblockAlbum": {
+      "description": "Title of button to unblock scrobbling album",
+      "message": "Scrobble this album"
+   },
+   "infoUnblockArtist": {
+      "description": "Title of button to unblock scrobbling artist",
+      "message": "Scrobble this artist"
+   },
+   "infoUnblockTrack": {
+      "description": "Title of button to unblock scrobbling track",
+      "message": "Scrobble this track"
+   },
+   "infoUnlove": {
+      "description": "Label of love/unlove button",
+      "message": "Прибрати лайк"
+   },
+   "infoUseRegex": {
+      "description": "Title of checkbox to toggle bulk edit flag",
+      "message": "Use regex"
+   },
+   "infoViewAlbumPage": {
+      "description": "Placeholder of album input",
+      "message": "Подивитись сторінку альбому: $1"
+   },
+   "infoViewArtistPage": {
+      "description": "Placeholder of album input",
+      "message": "Подивитись сторінку артиста: $1"
+   },
+   "infoViewTrackPage": {
+      "description": "Placeholder of album input",
+      "message": "Переглянути сторінку треку: $1"
+   },
+   "infoYourScrobbles": {
+      "description": "Label for user play count",
+      "message": "Прослуховувань: $1"
+   },
+   "instanceDomain": {
+      "description": "Input label",
+      "message": "Instance Domain"
+   },
+   "instanceDomainPlaceholder": {
+      "description": "Input label",
+      "message": "just domain: example.com"
+   },
+   "learnMoreLabel": {
+      "description": "Learn more label",
+      "message": "Дізнатись більше"
+   },
+   "menuDisableChannel": {
+      "description": "Context menu item",
+      "message": "Disable scrobbling from $1"
+   },
+   "menuDisableConnector": {
+      "description": "Context menu item",
+      "message": "Вимкнути $1"
+   },
+   "menuDisableUntilTabClosed": {
+      "description": "Context menu item",
+      "message": "Вимкнути $1, поки відкрито вкладку"
+   },
+   "menuEnableChannel": {
+      "description": "Context menu item",
+      "message": "Enable scrobbling from $1"
+   },
+   "menuEnableConnector": {
+      "description": "Context menu item",
+      "message": "Увімкнути $1"
+   },
+   "noItemsInCache": {
+      "description": "Popup hint",
+      "message": "Немає збережених даних."
+   },
+   "notificationAuthError": {
+      "description": "Notification title",
+      "message": "Помилка авторизації"
+   },
+   "notificationConnectAccounts": {
+      "description": "Notification title",
+      "message": "Під'єднайте ваші облікові записи"
+   },
+   "notificationConnectAccountsText": {
+      "description": "Notification text",
+      "message": "Натисніть на повідомлення, щоб під'єднати ваші облікові записи."
+   },
+   "notificationNativeScrobbler": {
+      "description": "Notification title, $1 denotes the name of the website.",
+      "message": "$1 has a built-in scrobbler!"
+   },
+   "notificationNativeScrobblerText": {
+      "description": "Notification text",
+      "message": "Make sure to turn off either Web Scrobbler or the built-in scrobbler!"
+   },
+   "notificationNotRecognized": {
+      "description": "Notification title",
+      "message": "Трек не розпізнано"
+   },
+   "notificationNotRecognizedText": {
+      "description": "Notification text",
+      "message": "Клацніть на іконку праворуч від адресного рядка, щоб налаштувати інформацію про трек."
+   },
+   "notificationUnableSignIn": {
+      "description": "Notification text",
+      "message": "Неможливо увійти у $1. Будь ласка, спробуйте пізніше."
+   },
+   "optionAlbumGuessingAllTracks": {
+      "description": "Option label",
+      "message": "Guess album title for all tracks"
+   },
+   "optionAlbumGuessingAllTracksTitle": {
+      "description": "Option title",
+      "message": "Web Scrobbler will guess the album title of all albumless tracks including edited ones"
+   },
+   "optionAlbumGuessingDisabled": {
+      "description": "Option label",
+      "message": "Disable album guessing"
+   },
+   "optionAlbumGuessingDisabledTitle": {
+      "description": "Option title",
+      "message": "Web Scrobbler will not guess the album title of any track"
+   },
+   "optionAlbumGuessingUneditedOnly": {
+      "description": "Option label",
+      "message": "Only guess album for unedited tracks (default)"
+   },
+   "optionAlbumGuessingUneditedOnlyTitle": {
+      "description": "Option title",
+      "message": "Web Scrobbler will only guess the album title of unedited tracks. Tracks with only bulk edits applied will still have album guessed"
+   },
+   "optionAutoToggleLove": {
+      "description": "Option label",
+      "message": "Love/unlove tracks through players"
+   },
+   "optionAutoToggleLoveTitle": {
+      "description": "Option label",
+      "message": "When you like or dislike a track on a website, the track will also be loved/unloved in your scrobbler"
+   },
+   "optionDebugLoggingEnabled": {
+      "description": "Option label",
+      "message": "Enable debug logging"
+   },
+   "optionDebugLoggingEnabledTitle": {
+      "description": "Option title",
+      "message": "Allow the extension to log debug messages to the browser console"
+   },
+   "optionForceRecognize": {
+      "description": "Option label",
+      "message": "Примусове розпізнавання"
+   },
+   "optionForceRecognizeTitle": {
+      "description": "Option title",
+      "message": "Примусове розпізнавання невідомих треків"
+   },
+   "optionPercentDesc": {
+      "description": "Description of scrobble percent option",
+      "message": "Примітка: трек буде заскробблено, якщо він грає понад 4 хвилини, незалежно від значення цього налаштування."
+   },
+   "optionScrobbleEditedTracksOnly": {
+      "description": "Option label",
+      "message": "Скробблити тільки змінені треки"
+   },
+   "optionScrobbleEditedTracksOnlyTitle": {
+      "description": "Option title",
+      "message": "Тільки скробблити треки, які змінені"
+   },
+   "optionScrobblePercent": {
+      "description": "Option title",
+      "message": "Скробблити на"
+   },
+   "optionScrobblePercentSuffix": {
+      "description": "Option title",
+      "message": "тривалості трека"
+   },
+   "optionScrobblePodcasts": {
+      "description": "Option label",
+      "message": "Скробблити подкасти"
+   },
+   "optionScrobblePodcastsTitle": {
+      "description": "Option title",
+      "message": "Скробблити епізоди подкастів"
+   },
+   "optionScrobbleRecognizedTracks": {
+      "description": "Option label",
+      "message": "Scrobble recognized or edited tracks (default)"
+   },
+   "optionScrobbleRecognizedTracksTitle": {
+      "description": "Option title",
+      "message": "Скробблити треки, тільки якщо вони розпізнані або відредаговані"
+   },
+   "optionTheme": {
+      "description": "Option label",
+      "message": "Тема"
+   },
+   "optionThemeDark": {
+      "description": "Option label",
+      "message": "Темна"
+   },
+   "optionThemeHighContrastDark": {
+      "description": "Option label",
+      "message": "High Contrast Dark"
+   },
+   "optionThemeHighContrastLight": {
+      "description": "Option label",
+      "message": "High Contrast Light"
+   },
+   "optionThemeLight": {
+      "description": "Option label",
+      "message": "Світла"
+   },
+   "optionThemeSystem": {
+      "description": "Option label",
+      "message": "Системна"
+   },
+   "optionThemeTitle": {
+      "description": "Option title",
+      "message": "Виберіть тему розширення"
+   },
+   "optionUnrecognizedNotifications": {
+      "description": "Option label",
+      "message": "Повідомляти, якщо композиція не розпізнана"
+   },
+   "optionUnrecognizedNotificationsTitle": {
+      "description": "Option title",
+      "message": "Показувати сповіщення, якщо трек не розпізнається розширенням"
+   },
+   "optionUseInfobox": {
+      "description": "Option label",
+      "message": "Show infobox"
+   },
+   "optionUseInfoboxTitle": {
+      "description": "Option title",
+      "message": "Show web scrobbler infobox on page for supported websites"
+   },
+   "optionUseNotifications": {
+      "description": "Option label",
+      "message": "Повідомляти про композицію, що грає"
+   },
+   "optionUseNotificationsTitle": {
+      "description": "Option title",
+      "message": "Показувати повідомлення про композицію, що грає, для всіх підтримуваних сайтів"
+   },
+   "optionYtDesc": {
+      "description": "Description of YouTube options",
+      "message": "Якщо ви вимкнете обидві опції, розширення буде скробблити відео YouTube з усіх категорій."
+   },
+   "optionYtEntertainmentOnly": {
+      "description": "Option label",
+      "message": "Скробблити відео з категорії \"Розваги\""
+   },
+   "optionYtEntertainmentOnlyTitle": {
+      "description": "Option title",
+      "message": "Ігнорувати відео, які не в категорії \"Розваги\""
+   },
+   "optionYtGetTrackInfoFromYtMusic": {
+      "description": "Option label",
+      "message": "Використовуйте Youtube Music, щоб отримати інформацію про трек"
+   },
+   "optionYtGetTrackInfoFromYtMusicTitle": {
+      "description": "Option title",
+      "message": "Використовуйте Youtube Music для отримання інформації про трек, якщо вимкнено, за замовчуванням використовується опис та назва відео"
+   },
+   "optionYtMusicOnly": {
+      "description": "Option title",
+      "message": "Скробблити відео тільки з категорії \"Музика\""
+   },
+   "optionYtMusicOnlyTitle": {
+      "description": "Option label",
+      "message": "Ігнорувати відео, які не в категорії \"Музика\""
+   },
+   "optionYtMusicRecognisedOnly": {
+      "description": "Option label",
+      "message": "Скробблити тільки ті відео, які YouTube Music розпізнає як музику"
+   },
+   "optionYtMusicRecognisedOnlyTitle": {
+      "description": "Option title",
+      "message": "Ігнорувати відео, які YouTube Music не розпізнає як музику"
+   },
+   "optionsAbout": {
+      "description": "'About' section",
+      "message": "Про розширення"
+   },
+   "optionsAccounts": {
+      "description": "'Accounts' section",
+      "message": "Облікові записи"
+   },
+   "optionsAdvanced": {
+      "description": "'Advanced' section",
+      "message": "Advanced"
+   },
+   "optionsAlbumGuessing": {
+      "description": "'Album guessing' section",
+      "message": "Album guessing"
+   },
+   "optionsBlockedSources": {
+      "description": "'Edited tracks' header",
+      "message": "Blocked sources"
+   },
+   "optionsBlockedSourcesDesc": {
+      "description": "Description of blocked sources",
+      "message": "You can block scrobbling from specific sources such as channels on this website."
+   },
+   "optionsBlockedSourcesPopupTitle": {
+      "description": "'Blocked sources' header",
+      "message": "$1 blocked sources"
+   },
+   "optionsBlockedTags": {
+      "description": "'Blocked tags' header",
+      "message": "Blocked tags"
+   },
+   "optionsBlockedTagsDesc": {
+      "description": "Description of blocked tags",
+      "message": "This extension stores blocked artist/album/track tags."
+   },
+   "optionsBlockedTagsPopupTitle": {
+      "description": "'Blocked tags' header",
+      "message": "$1 blocked tags"
+   },
+   "optionsConnectors": {
+      "description": "'Connectors' section",
+      "message": "Коннектори"
+   },
+   "optionsCustomPatternsHint": {
+      "description": "Description of how to configure custom URL patterns",
+      "message": "Клацніть на іконку з шестернею, щоб налаштувати паттерни URL для коннекторів."
+   },
+   "optionsDelete": {
+      "description": "Option label",
+      "message": "Delete $1"
+   },
+   "optionsDisabled": {
+      "description": "Option label",
+      "message": "Disabled"
+   },
+   "optionsEditedTracks": {
+      "description": "'Edited tracks' header",
+      "message": "Відредаговані треки"
+   },
+   "optionsEditedTracksDesc": {
+      "description": "Description of edited tracks",
+      "message": "Розширення зберігає редаговану вами інформацію про треки."
+   },
+   "optionsEditedTracksPopupTitle": {
+      "description": "'Edited tracks' header",
+      "message": "Збережених змін для треків: $1"
+   },
+   "optionsEdits": {
+      "description": "'Edits' section",
+      "message": "Зміни"
+   },
+   "optionsEnableDisableHint": {
+      "description": "Enable/disable hint",
+      "message": "Поставте або зніміть галочку, щоб увімкнути або вимкнути коннектори."
+   },
+   "optionsEnabled": {
+      "description": "Option label",
+      "message": "Enabled"
+   },
+   "optionsExportEdited": {
+      "description": "Button to export edited tracks",
+      "message": "Експорт"
+   },
+   "optionsGeneral": {
+      "description": "'General' section",
+      "message": "Загальні"
+   },
+   "optionsHidden": {
+      "description": "'Hidden' section",
+      "message": "Приховані"
+   },
+   "optionsImportEdited": {
+      "description": "Button to import edited tracks",
+      "message": "Імпорт"
+   },
+   "optionsIndeterminate": {
+      "description": "Option label",
+      "message": "Same as global option"
+   },
+   "optionsLoadingConnectorOptions": {
+      "description": "Loading connector options message",
+      "message": "Завантаження параметрів коннектору..."
+   },
+   "optionsOptions": {
+      "description": "'Options' section",
+      "message": "Налаштування"
+   },
+   "optionsPermissionsLabel": {
+      "description": "Label for permissions button",
+      "message": "Ви не надали Web Scrobbler дозвіл на доступ до всіх сайтів, а це означає, що вам доведеться щоразу натискати іконку розширення, щоб почати скрайбінг. Натисніть тут, щоб надати дозвіл. Зверніть увагу, що в сафарі дозвіл не буде надано автоматично, але наступного разу, коли ви відвідаєте підтримуваний сайт, ви зможете натиснути \"Завжди дозволяти на кожному сайті...\", щоб надати дозвіл."
+   },
+   "optionsRegexEdits": {
+      "description": "'Regex/Bulk edits' header",
+      "message": "Зміни Regex/Bulk"
+   },
+   "optionsRegexEditsDesc": {
+      "description": "Description of regex/bulk edits",
+      "message": "Це розширення зберігає зміни regex/bulk"
+   },
+   "optionsRegexEditsPopupTitle": {
+      "description": "'Regex/Bulk edits' header",
+      "message": "$1Зміни regex/bulk"
+   },
+   "optionsScrobbleBehavior": {
+      "description": "'Scrobble behavior' section",
+      "message": "Поведінка скроббла"
+   },
+   "optionsScrobbleCache": {
+      "description": "'Scrobble Cache' section",
+      "message": "Cache"
+   },
+   "optionsScrobbleCacheDisallowed": {
+      "description": "'Scrobble Cache' disallowed scrobbles section header",
+      "message": "Disallowed Scrobbles"
+   },
+   "optionsScrobbleCacheEditAll": {
+      "description": "Label for checkbox to apply cache edit to all unscrobbled instances of the same track in cache.",
+      "message": "Edit and scrobble all unscrobbled instances of this song"
+   },
+   "optionsScrobbleCacheError": {
+      "description": "'Scrobble Cache' errored scrobbles section header",
+      "message": "Errored Scrobbles"
+   },
+   "optionsScrobbleCacheIgnored": {
+      "description": "'Scrobble Cache' ignored scrobbles section header",
+      "message": "Ignored Scrobbles"
+   },
+   "optionsScrobbleCacheLoading": {
+      "description": "'Scrobble Cache' section",
+      "message": "Loading scrobble cache..."
+   },
+   "optionsScrobbleCacheScrobbleSelected": {
+      "description": "Scrobble Selected button label",
+      "message": "Scrobble Selected"
+   },
+   "optionsScrobbleCacheSelectAll": {
+      "description": "Select All button label",
+      "message": "Select All"
+   },
+   "optionsScrobbleCacheSelectScrobbles": {
+      "description": "Select Scrobbles button label",
+      "message": "Select Scrobbles"
+   },
+   "optionsScrobbleCacheSuccess": {
+      "description": "'Scrobble Cache' successful scrobbles section header",
+      "message": "Successful Scrobbles"
+   },
+   "optionsScrobbleCacheUnrecognized": {
+      "description": "'Scrobble Cache' unrecognized scrobbles section header",
+      "message": "Unrecognized Scrobbles"
+   },
+   "optionsScrobbleCacheUnselectAll": {
+      "description": "Unselect All button label",
+      "message": "Unselect All"
+   },
+   "optionsSupportedWebsites": {
+      "description": "'Supported websites' header",
+      "message": "Підтримувані веб-сайти"
+   },
+   "optionsTitle": {
+      "description": "Title of options page",
+      "message": "Налаштування Web Scrobbler"
+   },
+   "optionsToggle": {
+      "description": "Label of toggle button",
+      "message": "Перемкнути"
+   },
+   "optionsViewEdited": {
+      "description": "Button to view edited tracks",
+      "message": "Подивитись"
+   },
+   "pageActionBase": {
+      "description": "`base` page action title, also used for infobox",
+      "message": "Цей сайт підтримується для скробблінґу"
+   },
+   "pageActionDisabled": {
+      "description": "`disabled` page action title, also used for infobox",
+      "message": "Цей сайт підтримується для скробблінґу, але ви вимкнули його."
+   },
+   "pageActionError": {
+      "description": "`loading` page action title",
+      "message": "Сталася службова помилка. Клацніть для подробиць."
+   },
+   "pageActionIgnored": {
+      "description": "`ignored` page action title, also used for infobox",
+      "message": "Проігноровано $1"
+   },
+   "pageActionLoading": {
+      "description": "`loading` page action title, also used for infobox",
+      "message": "Пошук $1"
+   },
+   "pageActionLoved": {
+      "description": "`unsupported` page action title",
+      "message": "Ви позначили трек $1 як улюблений"
+   },
+   "pageActionPaused": {
+      "description": "`paused` page action title, also used for infobox",
+      "message": "Paused $1"
+   },
+   "pageActionPlaying": {
+      "description": "`playing` page action title, also used for infobox",
+      "message": "Зараз грає $1"
+   },
+   "pageActionScrobbled": {
+      "description": "`scrobbled` page action title, also used for infobox",
+      "message": "Заскробблено $1"
+   },
+   "pageActionSkipped": {
+      "description": "`skipped` page action title, also used for infobox",
+      "message": "Пропущено $1"
+   },
+   "pageActionUnknown": {
+      "description": "`unknown` page action title",
+      "message": "Пісня не розпізнана. Натисніть, щоб ввести правильні дані."
+   },
+   "pageActionUnloved": {
+      "description": "`unsupported` page action title",
+      "message": "Ви видалили трек $1 з улюблених "
+   },
+   "pageActionUnsupported": {
+      "description": "`unsupported` page action title",
+      "message": "Web Scrobbler не підтримує цей веб-сайт."
+   },
+   "serviceErrorDesc": {
+      "description": "The description of service error",
+      "message": "Схоже, щось сталося не так під час скроблінгу. Будь ласка, відкрийте сторінку з налаштуваннями та спробуйте заново авторизуватися. Якщо це не допомагає, будь ласка, \u003Ca href='$1' target='_blank'>повідомте про проблему\u003C/a> на сторінці проекту GitHub."
+   },
+   "serviceErrorHeader": {
+      "description": "The header of 'error' popup",
+      "message": "Службова помилка"
+   },
+   "showSomeLoveText1": {
+      "description": "",
+      "message": "На відміну від інших розширень це не містить рекламні банери."
+   },
+   "showSomeLoveText2": {
+      "description": "",
+      "message": "Розширення безкоштовне, і завжди буде безкоштовним. Якщо ви хочете підтримати розробку розширення, можна скористатися кнопкою нижче."
+   },
+   "showSomeLoveTitle": {
+      "description": "'Show some love' section",
+      "message": "Проявіть вдячність"
+   },
+   "unsupportedWebsiteDesc": {
+      "description": "The description of 'unsupported' popup",
+      "message": "Web Scrobbler не підтримує скробблінґ з цього сайту."
+   },
+   "unsupportedWebsiteDesc2": {
+      "description": "The description of 'unsupported' popup",
+      "message": "Деякі сайти Google, які підтримуються розширенням (наприклад, Google Play Music, YouTube), можуть бути заблоковані політикою ExtensionSettings."
+   },
+   "unsupportedWebsiteHeader": {
+      "description": "The header of 'unsupported' popup",
+      "message": "Цей сайт не підтримується"
+   },
+   "unsupportedWebsiteUpdateNote": {
+      "description": "The description of 'unsupported' popup",
+      "message": "If the extension recently updated sites may show as unsupported until you refresh the page."
+   },
+   "versionText": {
+      "description": "'About' section text",
+      "message": "You are using version $1 of the extension."
+   },
+   "versionTitle": {
+      "description": "'Version' header",
+      "message": "Version"
+   }
+}

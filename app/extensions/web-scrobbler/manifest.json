@@ -1,0 +1,83 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "icons/action_unsupported_16_light.png",
+         "19": "icons/action_unsupported_19_light.png",
+         "32": "icons/action_unsupported_32_light.png",
+         "38": "icons/action_unsupported_38_light.png"
+      },
+      "default_popup": "src/ui/popup/index.html",
+      "default_title": "__MSG_pageActionUnsupported__"
+   },
+   "background": {
+      "service_worker": "background/main.js"
+   },
+   "commands": {
+      "love-song": {
+         "description": "__MSG_hotkeyLoveSong__"
+      },
+      "toggle-connector": {
+         "description": "__MSG_hotkeyToggleConnector__"
+      },
+      "unlove-song": {
+         "description": "__MSG_hotkeyUnloveSong__"
+      }
+   },
+   "content_scripts": [
+      {
+         "all_frames": true,
+         "js": [
+            "content/main.js"
+         ],
+         "matches": [
+            "<all_urls>"
+         ]
+      }
+   ],
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "icons": {
+      "128": "icons/icon_main_128.png",
+      "16": "icons/icon_main_16.png",
+      "256": "icons/icon_main_256.png",
+      "48": "icons/icon_main_48.png",
+      "512": "icons/icon_main_512.png",
+      "96": "icons/icon_main_96.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPvRk2TRWcLqM9RsKXmxBHM6hFBHYhUUQfffv/RpRVum6le1VvH5Ld9oRGG5rrBaAt7DDs6IsYKk7TzZoaqq/1ajW+dZsxtvTVZ9ylnwmBZ1yNbe1vYz/2QYthS1lmVhDheLzZwN19eQ0FKkSlejeRZ4+eMcqLrcuf5ReKEDpCXwIDAQAB",
+   "manifest_version": 3,
+   "name": "Web Scrobbler",
+   "optional_host_permissions": [
+      "http://*/",
+      "https://*/"
+   ],
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "src/ui/options/index.html"
+   },
+   "permissions": [
+      "storage",
+      "contextMenus",
+      "notifications",
+      "scripting"
+   ],
+   "version": "3.23.1",
+   "web_accessible_resources": [
+      {
+         "matches": [
+            "<all_urls>"
+         ],
+         "resources": [
+            "connectors/*"
+         ]
+      },
+      {
+         "matches": [
+            "<all_urls>"
+         ],
+         "resources": [
+            "icons/*"
+         ]
+      }
+   ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "lastfm-prime",
+  "productName": "Last.fm PRIME",
+  "version": "3.11.0",
+  "description": "Last.fm com o tema PRIME e o Spotify integrados num só app",
+  "main": "main.js",
+  "author": "Perereko",
+  "license": "UNLICENSED"
+}

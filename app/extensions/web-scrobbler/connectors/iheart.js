@@ -1,0 +1,63 @@
+"use strict";
+(() => {
+  // src/connectors/iheart.ts
+  var playerBar = "[data-test=player-container]";
+  var controlBar = "[data-test=player-controls]";
+  var artistSelector = `${playerBar} [data-test=description-link]`;
+  var filter = MetadataFilter.createFilter({
+    track: [
+      MetadataFilter.removeRemastered,
+      MetadataFilter.removeVersion,
+      MetadataFilter.removeLive
+    ]
+  });
+  var artistTrack = null;
+  var timeout;
+  Connector.playerSelector = playerBar;
+  Connector.isPodcast = () => Util.isElementVisible(`${playerBar} [data-test=forward-30-player-button]`);
+  Connector.getArtistTrack = () => {
+    const newArtistTrack = getArtistTrack();
+    if (!Util.isArtistTrackEmpty(newArtistTrack)) {
+      artistTrack = newArtistTrack;
+      renewTimeout();
+    }
+    return artistTrack;
+  };
+  Connector.currentTimeSelector = `${playerBar} span:has(~ [data-test=progress-bar-player-control])`;
+  Connector.durationSelector = `${playerBar} [data-test=progress-bar-player-control] ~ span`;
+  Connector.getTrackArt = () => {
+    const artist = Util.getTextFromSelectors(artistSelector);
+    const trackArtSelector = `${playerBar} img[alt="${artist}"]`;
+    const trackArtUrl = Util.extractImageUrlFromSelectors(trackArtSelector);
+    return trackArtUrl?.replace(/(?<=fit%28)\d{3}%2C\d{1,3}(?=%29)/, "400%2C0");
+  };
+  Connector.isTrackArtDefault = (url) => url?.includes("assets");
+  Connector.isPlaying = () => {
+    const playButtonSvg = `${controlBar} [data-test=player-play-button] svg`;
+    const svgLabel = Util.getAttrFromSelectors(playButtonSvg, "aria-label");
+    if (Util.isElementVisible(`${controlBar} [data-test=next-player-button]`)) {
+      return svgLabel === "Pause";
+    }
+    return svgLabel === "Stop";
+  };
+  Connector.applyFilter(filter);
+  function getArtistTrack() {
+    const artist = Util.getTextFromSelectors(artistSelector);
+    let trackSelector = `${playerBar} [data-test=title-link]`;
+    if (Connector.isPodcast()) {
+      trackSelector = `${playerBar} [data-test=subtitle-link]`;
+    }
+    const track = Util.getTextFromSelectors(trackSelector)?.replace(
+      "\u2022",
+      "-"
+    );
+    return { artist, track };
+  }
+  function renewTimeout() {
+    clearTimeout(timeout);
+    timeout = setTimeout(() => {
+      artistTrack = null;
+      Connector.onStateChanged();
+    }, 1e4);
+  }
+})();

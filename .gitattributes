@@ -1,0 +1,15 @@
+* text=auto eol=lf
+*.bat text eol=crlf
+*.png binary
+*.jpg binary
+*.ico binary
+*.gif binary
+*.mp3 binary
+*.mp4 binary
+*.woff binary
+*.woff2 binary
+*.zip binary
+
+# terceiros: guardados exatamente como vieram
+app/extensions/** -text
+extension/vendor/** -text

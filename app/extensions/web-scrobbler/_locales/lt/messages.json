@@ -1,0 +1,1106 @@
+{
+   "aboutChangelog": {
+      "description": "'About' section text",
+      "message": "Dabartinės versijos pakeitimų sąrašas pateikiamas \u003Ca id='latest-release' target='_blank' href='$1'>čia\u003C/a>. Dėl viso pakeitimų sąrašo aplankykite \u003Ca target='_blank' href='$2'>šį puslapį\u003C/a>."
+   },
+   "aboutExtensionDesc": {
+      "description": "'About' section text",
+      "message": "„Web Scrobbler“ - tai naršyklės plėtinys, sukurtas žmonėms, kurie klausosi muzikos internete per naršyklę ir norėtų išlaikyti atnaujintą įrašo peržiūros istoriją, naudojant skrobuolinimų paslaugas, pavyzdžiui, „Last.fm“, „Libre.fm“, „ListenBrainz“ ir „Pleroma“."
+   },
+   "accountsAddWebhook": {
+      "description": "Button label",
+      "message": "Pridėti interneto gaudyklę"
+   },
+   "accountsApplicationName": {
+      "description": "Input label",
+      "message": "Programos pavadinimas"
+   },
+   "accountsApplicationNamePlaceholder": {
+      "description": "Input label",
+      "message": "Pasirinktinė interneto gaudyklės etiketė"
+   },
+   "accountsNotSignedIn": {
+      "description": "'Signed in' label",
+      "message": "Nesate prisijungę."
+   },
+   "accountsProfile": {
+      "description": "'Signed in' label",
+      "message": "Profilis"
+   },
+   "accountsScrobblerProps": {
+      "description": "Button label",
+      "message": "Ypatybės"
+   },
+   "accountsScrobblerPropsTitle": {
+      "description": "Button label",
+      "message": "$1 ypatybės"
+   },
+   "accountsSignIn": {
+      "description": "Button label",
+      "message": "Prisijungti"
+   },
+   "accountsSignOut": {
+      "description": "Button label",
+      "message": "Atsijungti"
+   },
+   "accountsSignedInAs": {
+      "description": "'Signed in' label",
+      "message": "Esate prisijungę kaip $1."
+   },
+   "accountsUseLocalInstance": {
+      "description": "Button label",
+      "message": "Naudoti vietinį serverį"
+   },
+   "accountsUserApiUrl": {
+      "description": "Input label",
+      "message": "API URL"
+   },
+   "accountsUserApiUrlPlaceholder": {
+      "description": "Input label",
+      "message": "Pasirinktinis API URL"
+   },
+   "accountsUserToken": {
+      "description": "Input label",
+      "message": "Prieigos raktas"
+   },
+   "accountsUserTokenPlaceholder": {
+      "description": "Input label",
+      "message": "Pasirinktinis prieigos raktas"
+   },
+   "albumTooltip": {
+      "description": "Tooltip text",
+      "message": "Iš albumo „$1“"
+   },
+   "buttonCancel": {
+      "description": "Cancel button label",
+      "message": "Atšaukti"
+   },
+   "buttonClear": {
+      "description": "Clear button label",
+      "message": "Valyti"
+   },
+   "buttonOk": {
+      "description": "OK button label",
+      "message": "Gerai"
+   },
+   "buttonRemove": {
+      "description": "Remove button label, for removing a single scrobble from the cache",
+      "message": "Šalinti"
+   },
+   "buttonReset": {
+      "description": "Reset button label",
+      "message": "Nustatyti iš naujo"
+   },
+   "buttonScrobble": {
+      "description": "Scrobble button label",
+      "message": "Skrobuolinti"
+   },
+   "contactGitHubDesc": {
+      "description": "Description for GitHub section",
+      "message": "Pranešti apie problemą ir prisidėti"
+   },
+   "contactPrivacyPolicyDesc": {
+      "description": "Description for privacy section",
+      "message": "Peržiūrėti privatumo politiką"
+   },
+   "contactTitle": {
+      "description": "'Contact' section",
+      "message": "Susisiekti"
+   },
+   "contactTwitterDesc": {
+      "description": "Description for Twitter section",
+      "message": "Sekite naujienas ir greitų pokalbių"
+   },
+   "contributorsContribute": {
+      "description": "'About' section text",
+      "message": "Norite prisidėti? Žiūrėkite visus būdus, kaip galite prisidėti prie projekto, \u003Ca href='$1' target=\"_blank\" rel=\"noopener noreferrer\">mūsų svetainėje\u003C/a>."
+   },
+   "contributorsText": {
+      "description": "'About' section text",
+      "message": "Bendradarbių sąrašą galite rasti \u003Ca href='$1'>svetainėje „GitHub“\u003C/a>"
+   },
+   "contributorsTitle": {
+      "description": "'Contributors' header",
+      "message": "Bendradarbiai"
+   },
+   "customPatterns": {
+      "description": "'URL patterns' section",
+      "message": "URL šablonai"
+   },
+   "customPatternsAdd": {
+      "description": "Add button",
+      "message": "Pridėti šabloną"
+   },
+   "customPatternsHint": {
+      "description": "Popup hint",
+      "message": "Pridėkite URL šablonus, kuriuos jungtis turėtų atitikti toliau."
+   },
+   "disabledSiteButton": {
+      "description": "Button label",
+      "message": "Atidaryti parinkčių puslapį"
+   },
+   "disabledSiteDesc": {
+      "description": "The description of 'disabled' popup",
+      "message": "Šis plėtinys neskrobuolins muzikos iš šios svetainės, kol jo neįjungsite plėtinio parinktyse."
+   },
+   "disabledSiteHeader": {
+      "description": "The header of 'disabled' popup",
+      "message": "Ši svetainė išjungta"
+   },
+   "disallowedButton": {
+      "description": "Button label",
+      "message": "Skrobuolinti vis tiek"
+   },
+   "disallowedDesc1": {
+      "description": "The description of 'disallowed' popup. $1 is the artist detected. $2 is the track detected",
+      "message": "Web Scrobbler aptiko dainą „$2“ – „$1“, bet jo neskrobuolins."
+   },
+   "disallowedDesc3": {
+      "description": "The description of 'disallowed' popup on all sites including youtube",
+      "message": "„Web Scrobbler“ vis tiek turėtų skrobuolinti muziką iš kažkur kitur šioje svetainėje."
+   },
+   "disallowedDescElementMissing": {
+      "description": "The description of 'disallowed' popup.",
+      "message": "Priežastis ta, kad tam tikro elemento, kuriuo remiasi „Web Scrobbler“, puslapyje nėra. Tai tikriausiai reiškia, kad arba neleidžiate muzikos, arba jungtyje yra riktas."
+   },
+   "disallowedDescFilteredTag": {
+      "description": "The description of 'disallowed' popup.",
+      "message": "Atlikėjas, albumas arba takelis buvo išfiltruoti jungtimi kaip kažkas, ko negalima skrobuolinti. Taip atsitiko ne dėl kokių nors nustatymų, kuriuos nustatėte savo nustatymuose."
+   },
+   "disallowedDescForbiddenChannel": {
+      "description": "The description of 'disallowed' popup.",
+      "message": "Jūs išjungėte šio kanalo skrobuolinimą. Jį galite vėl įjungti jungties nustatymuose arba dešiniuoju pelės klavišu spustelėję plėtinio piktogramą ir spustelėję Įjungti skrobuolinimą iš \u003CID>."
+   },
+   "disallowedDescForbiddenTag": {
+      "description": "The description of 'disallowed' popup.",
+      "message": "Jūs išjungėte šio atlikėjo, albumo ir (arba) kūrinio skrobuolinimą. Žymes galite vėl įjungti nustatymuose arba paspausdami Skrobuolinti vis tiek ir vėl įjungdami žymes reguliariosios reiškinio redagavime."
+   },
+   "disallowedDescForbiddenYouTubeCategory": {
+      "description": "The description of 'disallowed' popup.",
+      "message": "Jūs išjungėte „YouTube“ vaizdo įrašų kategorijų skrobuolinimą, išskyrus muzikos ir (arba) pramogų kategorijas, o šį vaizdo įrašą įkėlėjas pažymėjo kaip kitą kategoriją. Galite pasirinkti skrobuolinti bet kurią vaizdo įrašų kategoriją, išjungdami „Web Scrobbler“ nustatymuose tiek „Skrobuolinti vaizdo įrašus iš „Muzika“ kategorijos“, tiek „Skrobuolinti vaizdo įrašus iš „Pramogos“ kategorijos“."
+   },
+   "disallowedDescIsAd": {
+      "description": "The description of 'disallowed' popup.",
+      "message": "Priežastis ta, kad „Web Scrobbler“ aptiko tai kaip reklamą."
+   },
+   "disallowedDescIsLoading": {
+      "description": "The description of 'disallowed' popup.",
+      "message": "Kažkas, kuo „Web Scrobbler“ remiasi ieškant takelio išsamios informacijos, yra įkeliama. Palaukite kelias sekundes. Jei šis pranešimas išlieka, praneškite apie tai, nes kažkas ne taip."
+   },
+   "disallowedDescIsPlayingElsewhere": {
+      "description": "The description of 'disallowed' popup.",
+      "message": "Priežastis ta, kad „Web Scrobbler“ mano, jog šis takelis leidžiamas kitur ir neturėtų būti skrobuolinamas."
+   },
+   "disallowedDescIsPrivate": {
+      "description": "The description of 'disallowed' popup when a song that is marked as private is being played.",
+      "message": "Daina nėra skrobuolinima, nes savininkas ją pažymėjo kaip privačią."
+   },
+   "disallowedDescNotOnYouTubeMusic": {
+      "description": "The description of 'disallowed' popup.",
+      "message": "„YouTube Music“ neatpažįsta šio vaizdo įrašo kaip muzikos, o jūs nustatymuose įjungėte parinktį „Skrobuolinti tik tuos vaizdo įrašus, kuriuos „YouTube Music“ atpažįsta kaip muziką“."
+   },
+   "disallowedDescOther": {
+      "description": "The description of 'disallowed' popup.",
+      "message": "Dėl nežinomų priežasčių „Web Scrobbler“ nustatė, kad tai neturėtų būti skrobuolinima. Tai nesusiję su jokiais jūsų nustatytais nustatymais. Jei manote, kad tai klaida, praneškite apie ją."
+   },
+   "disallowedHeader": {
+      "description": "The header of 'disallowed' popup",
+      "message": "Ši daina nėra skrobuolinima"
+   },
+   "donationButtonLabel": {
+      "description": "The donation button label",
+      "message": "Palaikyti mus platformoje „OpenCollective“"
+   },
+   "extDescription": {
+      "description": "Description of the extension",
+      "message": "Skrobuolinkite muziką visame internete!"
+   },
+   "faqAnswer1a": {
+      "description": "Answer #1",
+      "message": "Turėtumėte spustelėti pranešimą, kuris rodomas pirmą kartą įkėlus plėtinį. Tada turėtumėte suteikti prieigą prie savo paskyrų."
+   },
+   "faqAnswer1b": {
+      "description": "Answer #1",
+      "message": "Pastaba: kai kuriais atvejais pranešimas nebus rodomas, pvz., sistemoje „Mac OS“, jei „Chrome“ veikia viso ekrano režimu. Plėtinys atidarys skirtuką, kuriame galėsite suteikti prieigą prie savo paskyrų."
+   },
+   "faqAnswer2a": {
+      "description": "Answer #2",
+      "message": "Tai galite padaryti dešiniuoju pelės klavišu spustelėję žalią plėtinio piktogramą plėtinių juostoje. Naudodami kontekstinį meniu galite išjungti dabartinės interneto paslaugos jungtį."
+   },
+   "faqAnswer2b": {
+      "description": "Answer #2",
+      "message": "Naudokite žymimuosius langelius parinkčių puslapyje, kad išjungtumėte tam tikras jungtis, arba žymimąjį langelį Perjungti, kad išjungtumėte skrobuolinimą visuotinai."
+   },
+   "faqAnswer3a": {
+      "description": "Answer #3",
+      "message": "Kai takelio negalima atpažinti, plėtinio juostoje pasirodo pilka piktograma su klausimo ženklu. Šią piktogramą galite spustelėti ir atidarytame iškylančiajame lange įvesti teisingus duomenis."
+   },
+   "faqAnswer3b": {
+      "description": "Answer #3",
+      "message": "Be to, yra parinktis Priversti takelio atpažinimą, dėl kurios plėtinys priverčia takelį nuskrobuolinti, net jei takelis nepatvirtintas „Last.fm“."
+   },
+   "faqAnswer4a": {
+      "description": "Answer #4",
+      "message": "Atrodo, kad muzika talpinama pasirinktiniame domene ir plėtinys negali aptikti, ar tai „Bandcamp“, ar ne."
+   },
+   "faqAnswer4b": {
+      "description": "Answer #4",
+      "message": "Kaip apeinamąją priemonę, sukonfigūruokite plėtinį taip, kad jis veiktų su pasirinktiniais domenais:"
+   },
+   "faqAnswer4b1": {
+      "description": "Answer #4",
+      "message": "Atidarykite plėtinio nustatymų puslapį ir išplėskite skyrių Parinktys."
+   },
+   "faqAnswer4b2": {
+      "description": "Answer #4",
+      "message": "Suraskite „Bandcamp“ jungtį palaikomų paslaugų sąraše."
+   },
+   "faqAnswer4b3": {
+      "description": "Answer #4",
+      "message": "Spauskite krumpliaračio piktogramą šalia jungties etiketės."
+   },
+   "faqAnswer4b4": {
+      "description": "Answer #4",
+      "message": "Pridėkite URL šabloną, atitinkantį „Bandcamp“ pasirinktinio domeno URL, ir pritaikykite pakeitimus."
+   },
+   "faqAnswer4c": {
+      "description": "Answer #4",
+      "message": "Galite sužinoti daugiau apie pasirinktinius URL šablonus \u003Ca target='_blank' href='$1'>čia\u003C/a>."
+   },
+   "faqAnswer5": {
+      "description": "Answer #5",
+      "message": "Atidarykite \u003Ca href='$1' target='_blank'>naują problemą\u003C/a> platformoje „GitHub“ su savo prašymu ir mes jums pasakysime, ar galime pridėti svetainės palaikymą, ar ne. Be to, galite pridėti svetainės palaikymą iššakodami \u003Ca href='$1'>„GitHub“ saugyklą\u003C/a> ir siųsdami mums sujungimo prašymą."
+   },
+   "faqAnswer6": {
+      "description": "Answer #6",
+      "message": "Galbūt, jei tai prasminga. Bet jei norite, kad pridėtume keletą ne tokių naudingų, bet tikrai šaunių funkcijų, tikriausiai nusivilsite."
+   },
+   "faqAnswer7": {
+      "description": "Answer #7",
+      "message": "Originalus šio plėtinio autorius yra David Šabata (liet. Deividas Šabatas). Dabar šį plėtinį kuria ir prižiūri „Web Scrobbler“ komanda."
+   },
+   "faqQuestion1": {
+      "description": "Question #1",
+      "message": "Kaip galiu pradėti naudoti plėtinį?"
+   },
+   "faqQuestion2": {
+      "description": "Question #2",
+      "message": "Kaip laikinai išjungti skrobuolinimą?"
+   },
+   "faqQuestion3": {
+      "description": "Question #3",
+      "message": "Takelis nebuvo atpažintas! Ar galite tai ištaisyti?"
+   },
+   "faqQuestion4": {
+      "description": "Question #4",
+      "message": "Kai kurios muzikos platformoje „Bandcamp“ negalima nuskrobuolinti. Ar įmanoma tai ištaisyti?"
+   },
+   "faqQuestion5": {
+      "description": "Question #5",
+      "message": "Ar pridėsite palaikymą skrobuolinimui ____ ?"
+   },
+   "faqQuestion6": {
+      "description": "Question #6",
+      "message": "Ar pridėsite ____ funkcionalumą?"
+   },
+   "faqQuestion7": {
+      "description": "Question #7",
+      "message": "Kas yra autorius?"
+   },
+   "faqTitle": {
+      "description": "'FAQ' section",
+      "message": "DUK"
+   },
+   "getStartedHeader": {
+      "description": "The header of 'Get started' popup",
+      "message": "Paleiskite muziką, kad pradėtumėte"
+   },
+   "getStartedSiteChanged": {
+      "description": "Description of why track is not recognized",
+      "message": "Dažniausiai tai reiškia, kad svetainė kažkaip pasikeitė. Pokytis nebūtinai turi būti matomas naudotojui, bet plėtiniui tai reiškia daug."
+   },
+   "getStartedSubheader": {
+      "description": "The subheader of 'Get started' popup",
+      "message": "Ar tai jau leidžiama?"
+   },
+   "getStartedSubmitIssue": {
+      "description": "Description of how to submit new issue",
+      "message": "Reikia atnaujinti šios konkrečios svetainės jungties kodą. Galite naršyti \u003Ca href='$1' target='_blank'>problemų sąraše\u003C/a> ir pažiūrėti, ar apie šią svetainę jau pranešta. Jei ne, galite pateikti naują problemą, apibūdindami, kas negerai, kokios elgsenos tikimasi ir kas vyksta vietoj to."
+   },
+   "hotkeyLoveSong": {
+      "description": "Hotkey label",
+      "message": "Mėgti dabar leidžiamą dainą"
+   },
+   "hotkeyToggleConnector": {
+      "description": "Hotkey label",
+      "message": "Perjungti skrobuolinimą dabartinėje svetainėje"
+   },
+   "hotkeyUnloveSong": {
+      "description": "Hotkey label",
+      "message": "Nemėgti dabar leidžiamą dainą"
+   },
+   "ignoredDesc": {
+      "description": "The description of 'ignored' popup. $1 is artist name, and $2 is track name",
+      "message": "„Web Scrobbler“ bandė nuskrobuolinti „$2“ – „$1“, bet „Last.FM“ ignoravo žymes."
+   },
+   "ignoredDescReadMore": {
+      "description": "The description of 'ignored' popup, links to support.last.fm thread",
+      "message": "Skaitykite daugiau ir prašykite, kad daina būtų įtraukta į leidžiamąjį sąrašą, čia"
+   },
+   "ignoredHeader": {
+      "description": "The header of 'ignored' popup",
+      "message": "Šis skroblas buvo ignoruotas"
+   },
+   "infoAlbumArtistLabel": {
+      "description": "Label of album artist input row",
+      "message": "Albumo atlikėjas"
+   },
+   "infoAlbumArtistPlaceholder": {
+      "description": "Placeholder of album artist input",
+      "message": "Albumo atlikėjas (pasirinktinai)"
+   },
+   "infoAlbumLabel": {
+      "description": "Label of album input row",
+      "message": "Albumas"
+   },
+   "infoAlbumPlaceholder": {
+      "description": "Placeholder of album input",
+      "message": "Albumas (pasirinktinai)"
+   },
+   "infoArtistLabel": {
+      "description": "Label of artist input row",
+      "message": "Atlikėjas"
+   },
+   "infoArtistPlaceholder": {
+      "description": "Placeholder of artist input",
+      "message": "Atlikėjas"
+   },
+   "infoBlockAlbum": {
+      "description": "Title of button to block scrobbling album",
+      "message": "Niekada neskrobuolinti šio albumo"
+   },
+   "infoBlockArtist": {
+      "description": "Title of button to block scrobbling artist",
+      "message": "Niekada neskrobuolinti šio atlikėjo"
+   },
+   "infoBlockTrack": {
+      "description": "Title of button to block scrobbling track",
+      "message": "Niekada neskrobuolinti šio takelio"
+   },
+   "infoBoxStateDisallowed": {
+      "description": "Infobox text when an option is disallowing scrobbling",
+      "message": "Skrobuolinimas neleidžiamas. Spustelėkite „Web Scrobbler“ plėtinio piktogramą, kad gautumėte daugiau informacijos."
+   },
+   "infoBoxStateError": {
+      "description": "Infobox text when an error occured",
+      "message": "Įvyko paslaugos klaida. Spustelėkite „Web Scrobbler“ plėtinio piktogramą, kad gautumėte daugiau informacijos."
+   },
+   "infoBoxStateUnknown": {
+      "description": "Infobox track is not recognized",
+      "message": "Takelis neatpažintas. Spustelėkite „Web Scrobbler“ plėtinio piktogramą, kad ištaisytumėte informaciją."
+   },
+   "infoDeleteLabel": {
+      "description": "Label of regex edit delete button",
+      "message": "Ištrinti"
+   },
+   "infoEditTitle": {
+      "description": "Title of edit button",
+      "message": "Redaguoti takelio metaduomenis"
+   },
+   "infoEditTitleShort": {
+      "description": "Title of edit button, should be short for mobile button label",
+      "message": "Redaguoti"
+   },
+   "infoEditUnableTitle": {
+      "description": "Title of edit button",
+      "message": "Negalite redaguoti šio takelio"
+   },
+   "infoEditUnableTitleShort": {
+      "description": "Title of edit button, should be short for mobile button label",
+      "message": "Negalima redaguoti"
+   },
+   "infoEditedWarning": {
+      "description": "Warning message to user if bulk editing on a previously edited track",
+      "message": "Šis takelis buvo redaguotas. Reguliarios reiškinio redagavimas netaikomas redaguotiems takeliams, todėl čia matoma peržiūra gali būti netiksli."
+   },
+   "infoLove": {
+      "description": "Label of love/unlove button",
+      "message": "Mėgti takelį"
+   },
+   "infoMatchCase": {
+      "description": "Title of checkbox to toggle bulk edit flag",
+      "message": "Skirti raidžių lygį"
+   },
+   "infoMatchWholeTag": {
+      "description": "Title of checkbox to toggle bulk edit flag",
+      "message": "Skirti visą žymę"
+   },
+   "infoOpenAlbumArt": {
+      "description": "Title of album image",
+      "message": "Atidaryti albumo viršelį naujame skirtuke"
+   },
+   "infoPreviewLabel": {
+      "description": "Label of regex edit preview output",
+      "message": "Peržiūra"
+   },
+   "infoRegexTitle": {
+      "description": "Title of regex/bulk edit button",
+      "message": "Reguliariosios reiškinio / masinio redagavimo režimas"
+   },
+   "infoRegexTitleShort": {
+      "description": "Title of regex/bulk edit button, should be short for mobile button label",
+      "message": "Reguliariosios reiškinio / masinio redagavimas"
+   },
+   "infoReplaceLabel": {
+      "description": "Label of regex edit replace input",
+      "message": "Pakeisti"
+   },
+   "infoRevertTitle": {
+      "description": "Title of revert button",
+      "message": "Grąžinti pakeitimus"
+   },
+   "infoRevertTitleShort": {
+      "description": "Title of revert button, should be short for mobile button label",
+      "message": "Grąžinti"
+   },
+   "infoRevertUnableTitle": {
+      "description": "Title of revert button",
+      "message": "Negalite grąžinti šio takelio"
+   },
+   "infoRevertUnableTitleShort": {
+      "description": "Title of revert button, should be short for mobile button label",
+      "message": "Negalima grąžinti"
+   },
+   "infoSearchLabel": {
+      "description": "Label of regex edit search input",
+      "message": "Ieškoti"
+   },
+   "infoSkipTitle": {
+      "description": "Title of skip button",
+      "message": "Neskrobuolinti dabartinio takelio"
+   },
+   "infoSkipTitleShort": {
+      "description": "Title of skip button, should be short for mobile button label",
+      "message": "Praleisti"
+   },
+   "infoSkipUnableTitle": {
+      "description": "Title of skip button",
+      "message": "Negalite praleisti šio takelio"
+   },
+   "infoSkipUnableTitleShort": {
+      "description": "Title of skip button, should be short for mobile button label",
+      "message": "Negalima praleisti"
+   },
+   "infoSkippedTitle": {
+      "description": "Title of unskip button",
+      "message": "Praleidote šį takelį"
+   },
+   "infoSkippedTitleShort": {
+      "description": "Title of unskip button, should be short for mobile button label",
+      "message": "Praleista"
+   },
+   "infoSubmitTitle": {
+      "description": "Title of submit button",
+      "message": "Pateikti pakeitimus"
+   },
+   "infoSubmitTitleShort": {
+      "description": "Title of submit button, should be short for mobile button label",
+      "message": "Pateikti"
+   },
+   "infoSubmitUnableTitle": {
+      "description": "Title of submit button",
+      "message": "Negalite pateikti tuščios takelio informacijos."
+   },
+   "infoSubmitUnableTitleShort": {
+      "description": "Title of submit button, should be short for mobile button label",
+      "message": "Negalima pateikti"
+   },
+   "infoSwapTitle": {
+      "description": "Title of swap button",
+      "message": "Sukeisti pavadinimą ir atlikėją"
+   },
+   "infoSwapTitleShort": {
+      "description": "Title of swap button, should be short for mobile button label",
+      "message": "Sukeisti pavadinimą / atlikėją"
+   },
+   "infoSwapUnableTitle": {
+      "description": "Title of swap button",
+      "message": "Negalite sukeisti tuščio takelio informacijos"
+   },
+   "infoSwapUnableTitleShort": {
+      "description": "Title of swap button, should be short for mobile button label",
+      "message": "Negalima apsikeisti informacija"
+   },
+   "infoTrackLabel": {
+      "description": "Label of track input row",
+      "message": "Takelis"
+   },
+   "infoTrackPlaceholder": {
+      "description": "Placeholder of track input",
+      "message": "Takelis"
+   },
+   "infoUnblockAlbum": {
+      "description": "Title of button to unblock scrobbling album",
+      "message": "Skrobuolinti šį albumą"
+   },
+   "infoUnblockArtist": {
+      "description": "Title of button to unblock scrobbling artist",
+      "message": "Skrobuolinti šį atlikėją"
+   },
+   "infoUnblockTrack": {
+      "description": "Title of button to unblock scrobbling track",
+      "message": "Skrobuolinti šį takelį"
+   },
+   "infoUnlove": {
+      "description": "Label of love/unlove button",
+      "message": "Nemėgti takelio"
+   },
+   "infoUseRegex": {
+      "description": "Title of checkbox to toggle bulk edit flag",
+      "message": "Naudoti reguliariąją reiškinį"
+   },
+   "infoViewAlbumPage": {
+      "description": "Placeholder of album input",
+      "message": "Peržiūrėti albumo puslapį: $1"
+   },
+   "infoViewArtistPage": {
+      "description": "Placeholder of album input",
+      "message": "Peržiūrėti atlikėjo puslapį: $1"
+   },
+   "infoViewTrackPage": {
+      "description": "Placeholder of album input",
+      "message": "Peržiūrėti takelio puslapį: $1"
+   },
+   "infoYourScrobbles": {
+      "description": "Label for user play count",
+      "message": "Jūsų skroblai: $1"
+   },
+   "instanceDomain": {
+      "description": "Input label",
+      "message": "Serverio domenas"
+   },
+   "instanceDomainPlaceholder": {
+      "description": "Input label",
+      "message": "tiesiog domenas: pavyzdys.lt"
+   },
+   "learnMoreLabel": {
+      "description": "Learn more label",
+      "message": "Sužinoti daugiau"
+   },
+   "menuDisableChannel": {
+      "description": "Context menu item",
+      "message": "Išjungti skrobuolinimą iš $1"
+   },
+   "menuDisableConnector": {
+      "description": "Context menu item",
+      "message": "Išjungti $1 jungtį"
+   },
+   "menuDisableUntilTabClosed": {
+      "description": "Context menu item",
+      "message": "Išjungti $1 jungtį, kol skirtukas bus uždarytas"
+   },
+   "menuEnableChannel": {
+      "description": "Context menu item",
+      "message": "Įjungti skrobuolinimą iš $1"
+   },
+   "menuEnableConnector": {
+      "description": "Context menu item",
+      "message": "Įjungti $1 jungtį"
+   },
+   "noItemsInCache": {
+      "description": "Popup hint",
+      "message": "Nėra elementų podėlyje."
+   },
+   "notificationAuthError": {
+      "description": "Notification title",
+      "message": "Tapatybės nustatymo klaida"
+   },
+   "notificationConnectAccounts": {
+      "description": "Notification title",
+      "message": "Prijunkite savo paskyras"
+   },
+   "notificationConnectAccountsText": {
+      "description": "Notification text",
+      "message": "Spustelėkite pranešimą, kad prijungtumėte savo paskyras."
+   },
+   "notificationNativeScrobbler": {
+      "description": "Notification title, $1 denotes the name of the website.",
+      "message": "$1 turi integruotą skrobuoklį!"
+   },
+   "notificationNativeScrobblerText": {
+      "description": "Notification text",
+      "message": "Būtinai išjunkite „Web Scrobbler“ arba integruotą skrobuoklį."
+   },
+   "notificationNotRecognized": {
+      "description": "Notification title",
+      "message": "Takelis neatpažintas"
+   },
+   "notificationNotRecognizedText": {
+      "description": "Notification text",
+      "message": "Spustelėkite plėtinių juostoje esančią piktogramą, kad ištaisytumėte ir pateiktumėte takelio informaciją."
+   },
+   "notificationUnableSignIn": {
+      "description": "Notification text",
+      "message": "Nepavyko prisijungti prie $1. Bandykite vėliau."
+   },
+   "optionAlbumGuessingAllTracks": {
+      "description": "Option label",
+      "message": "Spėti albumo pavadinimą visiems takeliams"
+   },
+   "optionAlbumGuessingAllTracksTitle": {
+      "description": "Option title",
+      "message": "„Web Scrobbler“ atspės visų takelių be albumo, įskaitant redaguotus, albumo pavadinimą"
+   },
+   "optionAlbumGuessingDisabled": {
+      "description": "Option label",
+      "message": "Išjungti albumo spėjimą"
+   },
+   "optionAlbumGuessingDisabledTitle": {
+      "description": "Option title",
+      "message": "„Web Scrobbler“ neatspės jokio takelio albumo pavadinimo"
+   },
+   "optionAlbumGuessingUneditedOnly": {
+      "description": "Option label",
+      "message": "Spėti tik neredaguotų takelių albumą (numatytoji)"
+   },
+   "optionAlbumGuessingUneditedOnlyTitle": {
+      "description": "Option title",
+      "message": "„Web Scrobbler“ atspės tik neredaguotų takelių albumo pavadinimą. Takeliai, kuriems taikomi tik masiniai redagavimai, vis tiek atspės albumą."
+   },
+   "optionAutoToggleLove": {
+      "description": "Option label",
+      "message": "Mėgti / nemėgti takelius per leistuvės"
+   },
+   "optionAutoToggleLoveTitle": {
+      "description": "Option label",
+      "message": "Kai mėgstate arba nemėgstate takelio svetainėje, jis taip pat bus pamėgtas / nepamėgtas skrobuoklyje."
+   },
+   "optionDebugLoggingEnabled": {
+      "description": "Option label",
+      "message": "Įjungti derinimo žurnalavimą"
+   },
+   "optionDebugLoggingEnabledTitle": {
+      "description": "Option title",
+      "message": "Leisti plėtiniui žurnaluoti derinimo pranešimus į naršyklės konsolę"
+   },
+   "optionForceRecognize": {
+      "description": "Option label",
+      "message": "Priversti takelio atpažinimą"
+   },
+   "optionForceRecognizeTitle": {
+      "description": "Option title",
+      "message": "Priversti atpažinti nežinomus takelius"
+   },
+   "optionPercentDesc": {
+      "description": "Description of scrobble percent option",
+      "message": "Atkreipkite dėmesį, kad takelis vis tiek bus nuskrobuolintas, jei jis bus leidžiamas 4 minutes, neatsižvelgiant į parinkties reikšmę."
+   },
+   "optionScrobbleEditedTracksOnly": {
+      "description": "Option label",
+      "message": "Skrobuolinti tik redaguotus takelius"
+   },
+   "optionScrobbleEditedTracksOnlyTitle": {
+      "description": "Option title",
+      "message": "Skrobuolinti takelius, jei jie yra redaguoti"
+   },
+   "optionScrobblePercent": {
+      "description": "Option title",
+      "message": "Skrobuolinti per"
+   },
+   "optionScrobblePercentSuffix": {
+      "description": "Option title",
+      "message": "dainos trukmė"
+   },
+   "optionScrobblePodcasts": {
+      "description": "Option label",
+      "message": "Skrobuolinti tinklalaidės"
+   },
+   "optionScrobblePodcastsTitle": {
+      "description": "Option title",
+      "message": "Skrobuolinti tinklalaidės epizodus"
+   },
+   "optionScrobbleRecognizedTracks": {
+      "description": "Option label",
+      "message": "Skrobuolinti atpažintus arba redaguotus takelius (numatytoji)"
+   },
+   "optionScrobbleRecognizedTracksTitle": {
+      "description": "Option title",
+      "message": "Skrobuolinti tik tuos takelius, jei jie yra atpažinti arba redaguoti"
+   },
+   "optionTheme": {
+      "description": "Option label",
+      "message": "Tema"
+   },
+   "optionThemeDark": {
+      "description": "Option label",
+      "message": "Tamsi"
+   },
+   "optionThemeHighContrastDark": {
+      "description": "Option label",
+      "message": "Didelio kontrasto tamsi"
+   },
+   "optionThemeHighContrastLight": {
+      "description": "Option label",
+      "message": "Didelio kontrasto šviesi"
+   },
+   "optionThemeLight": {
+      "description": "Option label",
+      "message": "Šviesi"
+   },
+   "optionThemeSystem": {
+      "description": "Option label",
+      "message": "Sistemos"
+   },
+   "optionThemeTitle": {
+      "description": "Option title",
+      "message": "Pasirinkite plėtinio temą"
+   },
+   "optionUnrecognizedNotifications": {
+      "description": "Option label",
+      "message": "Pranešti, jei takelis neatpažintas"
+   },
+   "optionUnrecognizedNotificationsTitle": {
+      "description": "Option title",
+      "message": "Rodyti pranešimą, jei takelis neatpažintas pagal plėtinį"
+   },
+   "optionUseInfobox": {
+      "description": "Option label",
+      "message": "Rodyti informacijos langelį"
+   },
+   "optionUseInfoboxTitle": {
+      "description": "Option title",
+      "message": "Rodyti „Web Scrobbler“ informacijos langelį palaikomų svetainių puslapiuose"
+   },
+   "optionUseNotifications": {
+      "description": "Option label",
+      "message": "Naudoti dabar leidžiamus pranešimus"
+   },
+   "optionUseNotificationsTitle": {
+      "description": "Option title",
+      "message": "Rodyti dabar leidžiamus pranešimus visose palaikomose svetainėse"
+   },
+   "optionYtDesc": {
+      "description": "Description of YouTube options",
+      "message": "Jei išjungsite abi parinktis, plėtinys skrobuolins „YouTube“ vaizdo įrašus iš visų kategorijų."
+   },
+   "optionYtEntertainmentOnly": {
+      "description": "Option label",
+      "message": "Skrobuolinti vaizdo įrašus iš „Pramogos“ kategorijos"
+   },
+   "optionYtEntertainmentOnlyTitle": {
+      "description": "Option title",
+      "message": "Ignoruoti vaizdo įrašus, kurie nėra Pramogos kategorijoje"
+   },
+   "optionYtGetTrackInfoFromYtMusic": {
+      "description": "Option label",
+      "message": "Naudoti „YouTube Music“, kad gauti informaciją apie takelį"
+   },
+   "optionYtGetTrackInfoFromYtMusicTitle": {
+      "description": "Option title",
+      "message": "Naudoti „YouTube Music“, kad gauti informaciją apie takelį, jei išjungta, numatytasis nustatymas – naudoti vaizdo įrašo aprašymą ir pavadinimą"
+   },
+   "optionYtMusicOnly": {
+      "description": "Option title",
+      "message": "Skrobuolinti vaizdo įrašus iš „Muzika“ kategorijos"
+   },
+   "optionYtMusicOnlyTitle": {
+      "description": "Option label",
+      "message": "Ignoruoti vaizdo įrašus, kurie nėra Muzikos kategorijoje"
+   },
+   "optionYtMusicRecognisedOnly": {
+      "description": "Option label",
+      "message": "Skrobuolinti tik tuos vaizdo įrašus, kuriuos „YouTube Music“ atpažįsta kaip muziką"
+   },
+   "optionYtMusicRecognisedOnlyTitle": {
+      "description": "Option title",
+      "message": "Ignoruoti vaizdo įrašus, kurių „YouTube Music“ neatpažįsta kaip muziką"
+   },
+   "optionsAbout": {
+      "description": "'About' section",
+      "message": "Apie"
+   },
+   "optionsAccounts": {
+      "description": "'Accounts' section",
+      "message": "Paskyros"
+   },
+   "optionsAdvanced": {
+      "description": "'Advanced' section",
+      "message": "Išplėstiniai"
+   },
+   "optionsAlbumGuessing": {
+      "description": "'Album guessing' section",
+      "message": "Albumo spėjimas"
+   },
+   "optionsBlockedSources": {
+      "description": "'Edited tracks' header",
+      "message": "Užblokuoti šaltiniai"
+   },
+   "optionsBlockedSourcesDesc": {
+      "description": "Description of blocked sources",
+      "message": "Galite blokuoti skrobuolinimą iš konkrečių šaltinių, pavyzdžiui, šios svetainės kanalų."
+   },
+   "optionsBlockedSourcesPopupTitle": {
+      "description": "'Blocked sources' header",
+      "message": "$1 užblokuoti šaltiniai"
+   },
+   "optionsBlockedTags": {
+      "description": "'Blocked tags' header",
+      "message": "Užblokuoti žymės"
+   },
+   "optionsBlockedTagsDesc": {
+      "description": "Description of blocked tags",
+      "message": "Šis plėtinys saugo užblokuotas atlikėjo / albumo / takelio žymes."
+   },
+   "optionsBlockedTagsPopupTitle": {
+      "description": "'Blocked tags' header",
+      "message": "$1 užblokuoti žymės"
+   },
+   "optionsConnectors": {
+      "description": "'Connectors' section",
+      "message": "Jungtys"
+   },
+   "optionsCustomPatternsHint": {
+      "description": "Description of how to configure custom URL patterns",
+      "message": "Spustelėkite krumpliaračio piktogramą, kad sukonfigūruotumėte pasirinktinius jungčių URL šablonus."
+   },
+   "optionsDelete": {
+      "description": "Option label",
+      "message": "Ištrinti $1"
+   },
+   "optionsDisabled": {
+      "description": "Option label",
+      "message": "Išjungta"
+   },
+   "optionsEditedTracks": {
+      "description": "'Edited tracks' header",
+      "message": "Redaguoti takeliai"
+   },
+   "optionsEditedTracksDesc": {
+      "description": "Description of edited tracks",
+      "message": "Šis plėtinys saugo redaguotus takelius."
+   },
+   "optionsEditedTracksPopupTitle": {
+      "description": "'Edited tracks' header",
+      "message": "$1 redaguoti takeliai"
+   },
+   "optionsEdits": {
+      "description": "'Edits' section",
+      "message": "Redagavimai"
+   },
+   "optionsEnableDisableHint": {
+      "description": "Enable/disable hint",
+      "message": "Spustelėkite žymimąjį langelį, kad įjungtumėte / išjungtumėte jungtis."
+   },
+   "optionsEnabled": {
+      "description": "Option label",
+      "message": "Įjungta"
+   },
+   "optionsExportEdited": {
+      "description": "Button to export edited tracks",
+      "message": "Eksportuoti"
+   },
+   "optionsGeneral": {
+      "description": "'General' section",
+      "message": "Bendrieji"
+   },
+   "optionsHidden": {
+      "description": "'Hidden' section",
+      "message": "Paslėpti"
+   },
+   "optionsImportEdited": {
+      "description": "Button to import edited tracks",
+      "message": "Importuoti"
+   },
+   "optionsIndeterminate": {
+      "description": "Option label",
+      "message": "Tokia pati kaip visuotinė parinktis"
+   },
+   "optionsLoadingConnectorOptions": {
+      "description": "Loading connector options message",
+      "message": "Įkeliamos jungties parinktys..."
+   },
+   "optionsOptions": {
+      "description": "'Options' section",
+      "message": "Parinktys"
+   },
+   "optionsPermissionsLabel": {
+      "description": "Label for permissions button",
+      "message": "Nesuteikėte „Web Scrobbler“ leidimo naudotis visomis svetainėmis, todėl kiekvieną kartą turite spustelėti plėtinio piktogramą, kad pradėtumėte skrobuolinti. Spustelėkite čia, kad suteiktumėte leidimą. Atkreipkite dėmesį, kad naršyklėje „Safari“ leidimas nebus suteiktas automatiškai, bet kitą kartą apsilankę palaikomoje svetainėje galėsite paspausti „Visada leisti kiekvienoje svetainėje...“, kad suteiktumėte leidimą."
+   },
+   "optionsRegexEdits": {
+      "description": "'Regex/Bulk edits' header",
+      "message": "Reguliarusiai reiškiniai / masiniai redagavimai"
+   },
+   "optionsRegexEditsDesc": {
+      "description": "Description of regex/bulk edits",
+      "message": "Šis plėtinys saugo reguliariąsias reiškinios / masinius redagavimus."
+   },
+   "optionsRegexEditsPopupTitle": {
+      "description": "'Regex/Bulk edits' header",
+      "message": "$1 reguliariųjų reiškinių / masinių redagavimai"
+   },
+   "optionsScrobbleBehavior": {
+      "description": "'Scrobble behavior' section",
+      "message": "Skrobuolinimo elgesys"
+   },
+   "optionsScrobbleCache": {
+      "description": "'Scrobble Cache' section",
+      "message": "Podėlis"
+   },
+   "optionsScrobbleCacheDisallowed": {
+      "description": "'Scrobble Cache' disallowed scrobbles section header",
+      "message": "Neleidžiami skroblai"
+   },
+   "optionsScrobbleCacheEditAll": {
+      "description": "Label for checkbox to apply cache edit to all unscrobbled instances of the same track in cache.",
+      "message": "Redaguoti ir skrobuolinti visus neskrobuolintus šios dainos atvejus"
+   },
+   "optionsScrobbleCacheError": {
+      "description": "'Scrobble Cache' errored scrobbles section header",
+      "message": "Klaidingi skroblai"
+   },
+   "optionsScrobbleCacheIgnored": {
+      "description": "'Scrobble Cache' ignored scrobbles section header",
+      "message": "Ignoruoti skroblai"
+   },
+   "optionsScrobbleCacheLoading": {
+      "description": "'Scrobble Cache' section",
+      "message": "Įkeliama skroblo podėlis..."
+   },
+   "optionsScrobbleCacheScrobbleSelected": {
+      "description": "Scrobble Selected button label",
+      "message": "Pasirinktas skroblas"
+   },
+   "optionsScrobbleCacheSelectAll": {
+      "description": "Select All button label",
+      "message": "Pasirinkti viską"
+   },
+   "optionsScrobbleCacheSelectScrobbles": {
+      "description": "Select Scrobbles button label",
+      "message": "Pasirinkti skroblus"
+   },
+   "optionsScrobbleCacheSuccess": {
+      "description": "'Scrobble Cache' successful scrobbles section header",
+      "message": "Sėkmingi skroblai"
+   },
+   "optionsScrobbleCacheUnrecognized": {
+      "description": "'Scrobble Cache' unrecognized scrobbles section header",
+      "message": "Nepripažinti skroblai"
+   },
+   "optionsScrobbleCacheUnselectAll": {
+      "description": "Unselect All button label",
+      "message": "Panaikinti visus pasirinkimus"
+   },
+   "optionsSupportedWebsites": {
+      "description": "'Supported websites' header",
+      "message": "Palaikomos svetainės"
+   },
+   "optionsTitle": {
+      "description": "Title of options page",
+      "message": "„Web Scrobbler“ parinktys"
+   },
+   "optionsToggle": {
+      "description": "Label of toggle button",
+      "message": "Perjungti"
+   },
+   "optionsViewEdited": {
+      "description": "Button to view edited tracks",
+      "message": "Peržiūrėti"
+   },
+   "pageActionBase": {
+      "description": "`base` page action title, also used for infobox",
+      "message": "Ši svetainė palaikoma skrobuolinimui"
+   },
+   "pageActionDisabled": {
+      "description": "`disabled` page action title, also used for infobox",
+      "message": "Ši svetainė yra palaikoma skrobuolinimui, bet jūs ją išjungėte"
+   },
+   "pageActionError": {
+      "description": "`loading` page action title",
+      "message": "Įvyko paslaugos klaida. Spustelėkite, kad gautumėte daugiau informacijos."
+   },
+   "pageActionIgnored": {
+      "description": "`ignored` page action title, also used for infobox",
+      "message": "Ignoruota $1"
+   },
+   "pageActionLoading": {
+      "description": "`loading` page action title, also used for infobox",
+      "message": "Ieškoma $1"
+   },
+   "pageActionLoved": {
+      "description": "`unsupported` page action title",
+      "message": "Pamėgote $1"
+   },
+   "pageActionPaused": {
+      "description": "`paused` page action title, also used for infobox",
+      "message": "Pristabdyta $1"
+   },
+   "pageActionPlaying": {
+      "description": "`playing` page action title, also used for infobox",
+      "message": "Dabar leidžiama $1"
+   },
+   "pageActionScrobbled": {
+      "description": "`scrobbled` page action title, also used for infobox",
+      "message": "Nuskrobuolinta $1"
+   },
+   "pageActionSkipped": {
+      "description": "`skipped` page action title, also used for infobox",
+      "message": "Praleista $1"
+   },
+   "pageActionUnknown": {
+      "description": "`unknown` page action title",
+      "message": "Takelis neatpažintas. Spustelėkite, kad pateiktumėte teisingą informaciją."
+   },
+   "pageActionUnloved": {
+      "description": "`unsupported` page action title",
+      "message": "Nepamėgote $1"
+   },
+   "pageActionUnsupported": {
+      "description": "`unsupported` page action title",
+      "message": "„Web Scrobbler“ nepalaiko šios svetainės."
+   },
+   "serviceErrorDesc": {
+      "description": "The description of service error",
+      "message": "Atrodo, kad kažkas nutiko ne taip, kai buvo skrobuolinima muzika. Atidarykite parinkčių puslapį ir bandykite iš naujo nustatyti tapatybę naudojant paslaugas. Jei pakartotinis tapatybės nustatymas nepadeda ir vis dar matote šį pranešimą, sukurkite \u003Ca href='$1' target='_blank'>naują problemą\u003C/a> „GitHub“ projekto puslapyje."
+   },
+   "serviceErrorHeader": {
+      "description": "The header of 'error' popup",
+      "message": "Paslaugos klaida"
+   },
+   "showSomeLoveText1": {
+      "description": "",
+      "message": "Skirtingai nei kituose plėtiniuose, šiame nėra jokių mirksinčių reklamjuosčių ar klastingų reklamų."
+   },
+   "showSomeLoveText2": {
+      "description": "",
+      "message": "Plėtinys yra nemokamas ir visada bus nemokamas. Bet jei norite palaikyti plėtinio kūrimą, galite pasinaudoti toliau esančiu mygtuku."
+   },
+   "showSomeLoveTitle": {
+      "description": "'Show some love' section",
+      "message": "Parodykite šiek tiek meilės"
+   },
+   "unsupportedWebsiteDesc": {
+      "description": "The description of 'unsupported' popup",
+      "message": "„Web Scrobbler“ nepalaiko skrobuolinimo iš šios svetainės."
+   },
+   "unsupportedWebsiteDesc2": {
+      "description": "The description of 'unsupported' popup",
+      "message": "Kai kurios plėtiniu palaikomos „Google“ svetainės (pvz., „Google Play Music“, „YouTube“) gali būti blokuojamos dėl plėtinio nustatymų politikos."
+   },
+   "unsupportedWebsiteHeader": {
+      "description": "The header of 'unsupported' popup",
+      "message": "Ši svetainė nėra palaikoma"
+   },
+   "unsupportedWebsiteUpdateNote": {
+      "description": "The description of 'unsupported' popup",
+      "message": "Jei plėtinys neseniai atnaujintas, svetainės gali būti rodomos kaip nepalaikomos, kol atnaujinsite puslapį."
+   },
+   "versionText": {
+      "description": "'About' section text",
+      "message": "Naudojate $1 plėtinio versiją."
+   },
+   "versionTitle": {
+      "description": "'Version' header",
+      "message": "Versija"
+   }
+}

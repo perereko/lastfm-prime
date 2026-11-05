@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https: http://127.0.0.1:*; connect-src 'none'">
+  <title>Last.fm PRIME</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300..900&family=Unbounded:wght@600..900&display=swap">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <header class="bar" id="bar">
+    <nav class="bar-nav" aria-label="Navegação do Last.fm">
+      <button class="ib" id="back" aria-label="Voltar" title="Voltar (Alt+←)"></button>
+      <button class="ib" id="fwd" aria-label="Avançar" title="Avançar (Alt+→)"></button>
+      <button class="ib" id="reload" aria-label="Recarregar" title="Recarregar (F5)"></button>
+    </nav>
+    <div class="brand-wrap">
+      <button class="brand" id="home" title="Início do Last.fm">
+        <span class="brand-lf">Last.fm</span><span class="brand-prime">PRIME</span>
+      </button>
+      <button class="brand-by" id="byLink" title="Conheça o site do Perereko">by Perereko</button>
+    </div>
+    <div class="bar-mid" id="mid">
+      <span class="page-title" id="pageTitle"></span>
+      <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+    </div>
+    <div class="bar-tools">
+      <button class="chip" id="scrobble" hidden></button>
+      <button class="pill pill-player" id="panelBtn" title="Mostrar ou esconder o player ao lado (escondido, ele continua tocando)" aria-pressed="false"></button>
+      <button class="pill" id="mkPlaylist" title="Criar uma playlist no Spotify com as músicas desta página" disabled></button>
+      <button class="ib" id="openSettings" aria-label="Configurações" title="Configurações"></button>
+    </div>
+  </header>
+
+  <main class="stage" id="stage" aria-hidden="true"></main>
+
+  <aside class="plpanel" id="plPanel" aria-label="Player" hidden>
+    <div class="plgrip" id="plGrip" title="Arraste para mudar a largura"></div>
+    <div class="plglow" aria-hidden="true"></div>
+    <header class="plhead">
+      <div class="pltabs" id="plTabs" role="tablist" aria-label="Plataformas"></div>
+      <div class="pltools">
+        <button class="ib sm" id="plBack" aria-label="Voltar" title="Voltar"></button>
+        <button class="ib sm" id="plReload" aria-label="Recarregar" title="Recarregar"></button>
+        <button class="ib sm" id="plLayout" aria-label="Versão de celular ou de computador" title="Versão de celular ou de computador"></button>
+        <button class="ib sm" id="plWin" aria-label="Abrir numa janela à parte" title="Abrir numa janela à parte (ajuda em logins que não abrem no painel)"></button>
+        <button class="ib sm" id="plClose" aria-label="Esconder o player" title="Esconder o player (ele continua tocando)"></button>
+      </div>
+    </header>
+    <div class="plscreen" id="plScreen">
+      <canvas id="plCanvas"></canvas>
+      <textarea id="plType" class="pltype" aria-label="Digitar no player" autocomplete="off" autocorrect="off" spellcheck="false"></textarea>
+      <div class="plnote" id="plNote" hidden><span id="plNoteText"></span><button class="btn sm" id="plNoteBtn"></button></div>
+      <div class="plwait" id="plWait"><span class="plwait-disc"></span><strong id="plWaitTitle">Abrindo…</strong><span id="plWaitSub"></span><div class="plwait-actions" id="plWaitActions"></div></div>
+    </div>
+  </aside>
+
+
+  <div class="overlay" id="overlay" hidden>
+    <img class="overlay-bg" id="overlayBg" alt="">
+    <div class="sheet" id="sheet" role="dialog" aria-modal="true"></div>
+  </div>
+
+  <script src="icons.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

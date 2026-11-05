@@ -1,0 +1,21 @@
+{
+  "name": "lastfm-prime-dev",
+  "private": true,
+  "description": "Ferramentas de desenvolvimento do Last.fm PRIME (o app em si está em app/)",
+  "scripts": {
+    "sync": "node build/sync-ext.js",
+    "start": "node build/sync-ext.js && electron app",
+    "pretest": "node build/sync-ext.js",
+    "test": "node test/run.js",
+    "test:extensao": "node test/ext-test.js",
+    "pretest:app": "node build/sync-ext.js",
+    "test:app": "node test/run.js && node test/run-panel.js && node test/run-web.js && node test/run-ws.js && node test/run-adblock.js",
+    "test:abas": "node test/run-match.js && node test/run-social.js && node test/run-doppel.js && node test/run-shows.js",
+    "build:win": "python build/package.py win",
+    "build:linux": "python build/package.py linux"
+  },
+  "devDependencies": {
+    "electron": "44.8.0",
+    "playwright": "1.56.1"
+  }
+}

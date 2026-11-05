@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'none'">
+  <title>Last.fm PRIME</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300..900&family=Unbounded:wght@600..900&display=swap">
+  <link rel="stylesheet" href="intro.css">
+</head>
+<body>
+  <!-- A abertura do app: um disco que se acende, a "costura" de luz e a viagem para dentro do Last.fm.
+       Fica por cima de tudo enquanto o Last.fm carrega; no fim, abre um portal e some. -->
+  <div class="stage" id="stage" aria-hidden="true">
+    <div class="bloom"></div>
+    <div class="floor"></div>
+    <canvas id="dust"></canvas>
+    <div class="vignette"></div>
+
+    <div class="hero">
+      <div class="disc-wrap">
+        <div class="halo"></div>
+        <svg class="disc" viewBox="0 0 400 400" aria-hidden="true">
+          <defs>
+            <radialGradient id="vinyl" cx="50%" cy="45%" r="55%">
+              <stop offset="0" stop-color="#1b1828"/>
+              <stop offset=".75" stop-color="#121019"/>
+              <stop offset="1" stop-color="#0b0a10"/>
+            </radialGradient>
+            <linearGradient id="label" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#c9a8ff"/>
+              <stop offset=".5" stop-color="#9a5cc0"/>
+              <stop offset="1" stop-color="#b8a4ff"/>
+            </linearGradient>
+          </defs>
+          <circle class="vinyl" cx="200" cy="200" r="164" fill="url(#vinyl)"/>
+          <g class="grooves" fill="none">
+            <circle pathLength="1" cx="200" cy="200" r="162"/>
+            <circle pathLength="1" cx="200" cy="200" r="150"/>
+            <circle pathLength="1" cx="200" cy="200" r="138"/>
+            <circle pathLength="1" cx="200" cy="200" r="126"/>
+            <circle pathLength="1" cx="200" cy="200" r="114"/>
+            <circle pathLength="1" cx="200" cy="200" r="102"/>
+            <circle pathLength="1" cx="200" cy="200" r="90"/>
+            <circle pathLength="1" cx="200" cy="200" r="78"/>
+          </g>
+          <circle class="label" cx="200" cy="200" r="58" fill="url(#label)"/>
+          <circle class="hole" cx="200" cy="200" r="9" fill="#141218"/>
+        </svg>
+        <div class="sheen"></div>
+        <div class="dot"></div>
+      </div>
+    </div>
+
+    <div class="streak"><i></i></div>
+
+    <div class="word">
+      <div class="name"><span class="lf">Last.fm</span><span class="prime">PRIME</span></div>
+      <div class="by">by Perereko</div>
+    </div>
+
+    <div class="load" id="load"><span class="bars"><i></i><i></i><i></i><i></i><i></i></span><span id="msg">Carregando o seu Last.fm…</span></div>
+    <div class="skip">Clique ou aperte qualquer tecla para pular</div>
+    <div class="flash"></div>
+  </div>
+  <script src="intro.js"></script>
+</body>
+</html>
